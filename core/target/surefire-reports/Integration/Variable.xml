@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Variable" failures="0" tests="18" time="0.435" errors="0">
+  <properties/>
+  <testcase name="get" time="0.013" classname="org.jreact.core.impl.VariableBasicTest"/>
+  <testcase name="setDifferentValue" time="0.0040" classname="org.jreact.core.impl.VariableBasicTest"/>
+  <testcase name="setMultiple" time="0.0" classname="org.jreact.core.impl.VariableBasicTest"/>
+  <testcase name="setSameValue" time="0.0010" classname="org.jreact.core.impl.VariableBasicTest"/>
+  <testcase name="setThenGet" time="0.0" classname="org.jreact.core.impl.VariableBasicTest"/>
+  <testcase name="loop" time="0.018" classname="org.jreact.core.impl.VariableChangesTest"/>
+  <testcase name="loopThenSet" time="0.0050" classname="org.jreact.core.impl.VariableChangesTest"/>
+  <testcase name="loopThenSetSame" time="0.0" classname="org.jreact.core.impl.VariableChangesTest"/>
+  <testcase name="setThenLoop1" time="0.0010" classname="org.jreact.core.impl.VariableChangesTest"/>
+  <testcase name="setThenLoop2" time="0.0020" classname="org.jreact.core.impl.VariableChangesTest"/>
+  <testcase name="disposeLoop" time="0.0040" classname="org.jreact.core.impl.VariableLimitTest"/>
+  <testcase name="disposeLoopPut" time="0.0030" classname="org.jreact.core.impl.VariableLimitTest"/>
+  <testcase name="disposePutLoopPut" time="0.0040" classname="org.jreact.core.impl.VariableLimitTest"/>
+  <testcase name="loopDisposePut" time="0.0030" classname="org.jreact.core.impl.VariableLimitTest"/>
+  <testcase name="loop" time="0.0010" classname="org.jreact.core.impl.VariableLoopTest"/>
+  <testcase name="loopThenSet" time="0.011" classname="org.jreact.core.impl.VariableLoopTest"/>
+  <testcase name="loopThenSetSame" time="0.0010" classname="org.jreact.core.impl.VariableLoopTest"/>
+  <testcase name="setThenLoop" time="0.0010" classname="org.jreact.core.impl.VariableLoopTest"/>
+</testsuite>

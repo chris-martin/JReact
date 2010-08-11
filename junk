@@ -1,0 +1,57 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+package org.jreact.condition;
+
+public abstract class LoopCondition {
+
+    public abstract boolean check();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+package org.jreact.effect;
+
+import fj.Effect;
+import org.A;
+
+public class EmissionEffect<A>
+        extends Effect<A> {
+
+    private final Source<A> source;
+
+    public EmissionEffect(
+            final Source<A> source) {
+
+        this.source = source;
+
+    }
+
+    @Override
+    public void e(
+            final A pkg) {
+
+        source.emit(pkg);
+
+    }
+
+}

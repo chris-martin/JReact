@@ -1,0 +1,69 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" skipfailedinvocationCounts="false" verbose="0" name="Failed suite [Integration]" junit="false" parallel="false" annotations="JDK" data-provider-thread-count="10">
+  <test name="Pipe(failed)" junit="false" parallel="false" annotations="JDK">
+    <classes>
+      <class name="org.jreact.core.impl.VariableLimitTest">
+        <methods>
+          <include name="createMocks"/>
+          <include name="createTestSubjects"/>
+        </methods>
+      </class>
+      <class name="org.jreact.core.impl.VariableLoopTest">
+        <methods>
+          <include name="createTestSubjects"/>
+          <include name="createMocks"/>
+        </methods>
+      </class>
+      <class name="org.jreact.core.impl.PipeLimitTimesTest">
+        <methods>
+          <include name="createMocks"/>
+          <include name="createTestSubjects"/>
+        </methods>
+      </class>
+      <class name="org.jreact.core.impl.RelayingPipeLimitedTimesTest">
+        <methods>
+          <include name="createTestSubjects"/>
+          <include name="initiallyNotDisposed"/>
+          <include name="doesGetDisposed"/>
+          <include name="createMocks"/>
+          <include name="stillNotDisposed"/>
+        </methods>
+      </class>
+      <class name="org.jreact.core.impl.PipeDependentEffectsTest">
+        <methods>
+          <include name="createTestSubjects"/>
+          <include name="createMocks"/>
+        </methods>
+      </class>
+      <class name="org.jreact.core.impl.VariableChangesTest">
+        <methods>
+          <include name="createTestSubjects"/>
+          <include name="createMocks"/>
+        </methods>
+      </class>
+      <class name="org.jreact.core.impl.VariableBasicTest">
+        <methods>
+          <include name="createTestSubjects"/>
+        </methods>
+      </class>
+      <class name="org.jreact.core.impl.PipeDependentSinksTest">
+        <methods>
+          <include name="createTestSubjects"/>
+          <include name="createMocks"/>
+        </methods>
+      </class>
+      <class name="org.jreact.core.impl.PipePutTest">
+        <methods>
+          <include name="createTestSubjects"/>
+          <include name="createMocks"/>
+        </methods>
+      </class>
+      <class name="org.jreact.core.impl.PipeLimitStreamTest">
+        <methods>
+          <include name="createTestSubjects"/>
+          <include name="createMocks"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

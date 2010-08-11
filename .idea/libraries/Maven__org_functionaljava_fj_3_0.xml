@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Maven: org.functionaljava:fj:3.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/functionaljava/fj/3.0/fj-3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/functionaljava/fj/3.0/fj-3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/functionaljava/fj/3.0/fj-3.0-sources.jar!/" />
+      <root url="file:///tmp/lib/functionaljava/src/main" />
+      <root url="jar://$PROJECT_DIR$/lib/functionaljava-3.0.zip!/functionaljava/src/main" />
+      <root url="jar://$PROJECT_DIR$/lib/functionaljava-3.0.zip!/functionaljava/src/package-info" />
+    </SOURCES>
+  </library>
+</component>

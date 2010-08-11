@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TimesRelayingPipe" failures="0" tests="1" time="0.011" errors="0">
+  <properties/>
+  <testcase name="a" time="0.0020" classname="org.jreact.core.impl.TimesRelayingPipeTest"/>
+</testsuite>
