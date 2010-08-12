@@ -7,12 +7,12 @@ public class MappedConstant<A, B>
         extends ConstantImpl<B> {
 
     Value<A> a;
-    F<A, B> function;
+    F<? super A, B> function;
     B b;
 
     MappedConstant(
             final Value<A> a,
-            final F<A, B> function) {
+            final F<? super A, B> function) {
 
         this.a = a;
         this.function = function;

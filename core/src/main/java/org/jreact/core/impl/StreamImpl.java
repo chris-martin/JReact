@@ -53,7 +53,9 @@ class StreamImpl<A>
         assert value != null;
 
         if (!disposed()) {
-            propagateToEffects(value.get());
+            final A v = value.get();
+            assert v != null;
+            propagateToEffects(v);
             propagateToPipes(value);
         }
 
@@ -160,7 +162,7 @@ class StreamImpl<A>
 
     @Override
     public <B> Stream<B> map(
-            final F<A, B> function) {
+            final F<? super A, B> function) {
 
         if (disposed()) {
 

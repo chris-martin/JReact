@@ -8,6 +8,9 @@ abstract class SignalImpl<A>
         implements Signal<A>, Varying<A> {
 
     @Override
+    public abstract StreamImpl<? extends A> changes();
+
+    @Override
     public void loop(
             final Effect<? super A> effect) {
 
@@ -29,8 +32,10 @@ abstract class SignalImpl<A>
         if (disposed()) {
             return VacuousStream.instance();
         } else {
-            final RelayingSignal<A> limited =
-                new RelayingSignal<A>(this, changes().limit(dispose));
+            final RelayingSignal<A> limited = new RelayingSignal<A>(
+                this,
+                changes().limit(dispose)
+            );
             dispose.limit(1).loop(new Effect<Object>() {
                 @Override
                 public void e(final Object o) {
@@ -44,12 +49,14 @@ abstract class SignalImpl<A>
 
     @Override
     public <B> Signal<B> map(
-            final F<A, B> function) {
+            final F<? super A, B> function) {
 
         final MappedSignal<A, B> mapped = new MappedSignal<A, B>(
             this,
             function
         );
+
+        changes().dependentValueSinks.add(mapped);
 
         return mapped;
 

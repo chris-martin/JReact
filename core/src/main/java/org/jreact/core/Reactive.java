@@ -14,7 +14,7 @@ public interface Reactive<A> {
     );
 
     <B> Reactive<B> map(
-        F<A, B> function
+        F<? super A, B> function
     );
-    
+
 }

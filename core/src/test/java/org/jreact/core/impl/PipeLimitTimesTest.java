@@ -9,6 +9,9 @@ import org.testng.annotations.Test;
 import static org.mockito.Mockito.*;
 import static org.testng.Assert.assertEquals;
 
+/**
+ * Tests {@link PipeImpl#limit(int)}.
+ */
 public class PipeLimitTimesTest {
 
     private PipeImpl<Character> pipe;

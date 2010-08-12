@@ -1,18 +1,17 @@
 package org.jreact.core.impl;
 
-import org.jreact.core.Reactive;
 import org.jreact.core.Value;
 
 class RelayingSignal<A>
-        extends AbstractSignal<A> {
+        extends SignalImpl<A> {
 
     final Value<? extends A> value;
-    final Reactive<? extends A> changes;
+    final StreamImpl<? extends A> changes;
     boolean disposed;
 
     public RelayingSignal(
             final Value<? extends A> value,
-            final Reactive<? extends A> changes) {
+            final StreamImpl<? extends A> changes) {
 
         this.value = value;
         this.changes = changes;
@@ -27,7 +26,7 @@ class RelayingSignal<A>
     }
 
     @Override
-    public Reactive<? extends A> changes() {
+    public StreamImpl<? extends A> changes() {
 
         return changes;
 

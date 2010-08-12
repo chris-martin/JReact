@@ -1,12 +1,16 @@
 package org.jreact.core.impl;
 
 import fj.Effect;
+import org.jreact.core.Value;
 import org.mockito.InOrder;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import static org.mockito.Mockito.*;
 
+/**
+ * Tests {@link PipeImpl#put(Value)}.
+ */
 public class PipePutTest {
 
     private PipeImpl<Character> pipe;

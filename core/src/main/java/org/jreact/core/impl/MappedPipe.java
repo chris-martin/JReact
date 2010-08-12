@@ -7,10 +7,10 @@ public class MappedPipe<A, B>
         extends StreamImpl<B>
         implements ValueSink<A> {
 
-    private final F<A, B> function;
+    final F<? super A, B> function;
 
     public MappedPipe(
-            final F<A, B> function) {
+            final F<? super A, B> function) {
 
         this.function = function;
 

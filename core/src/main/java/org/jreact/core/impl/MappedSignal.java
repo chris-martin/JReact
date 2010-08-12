@@ -1,45 +1,52 @@
 package org.jreact.core.impl;
 
 import fj.F;
-import org.jreact.core.Stream;
 import org.jreact.core.Value;
 
 public class MappedSignal<A, B>
-        extends AbstractSignal<B>
+        extends SignalImpl<B>
         implements ValueSink<A> {
 
-    private final AbstractSignal<A> a;
-    private final F<A, B> function;
+    private final SignalImpl<? extends A> a;
+    private final F<? super A, B> function;
+    private final PipeImpl<B> changes;
 
+    private B b;
 
     MappedSignal(
-            final AbstractSignal<A> a,
-            final F<A, B> function) {
+            final SignalImpl<? extends A> a,
+            final F<? super A, B> function) {
 
         this.a = a;
         this.function = function;
+
+        changes = new PipeImpl<B>();
 
     }
 
     @Override
     public B get() {
 
-        return null;
+        if (b == null) {
+            b = function.f(a.get());
+        }
+
+        return b;
 
     }
 
     @Override
     public void put(
-            final Value<A> a) {
+            final Value<A> value) {
 
-
+        b = null;
 
     }
 
     @Override
-    public Stream<? extends B> changes() {
+    public StreamImpl<? extends B> changes() {
 
-        return null;
+        return changes;
 
     }
 

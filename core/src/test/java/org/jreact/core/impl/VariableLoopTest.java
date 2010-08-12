@@ -8,6 +8,9 @@ import org.testng.annotations.Test;
 
 import static org.mockito.Mockito.*;
 
+/**
+ * Tests {@link VariableImpl#loop(Effect)}.
+ */
 public class VariableLoopTest {
 
     private Variable<Character> var;

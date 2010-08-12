@@ -6,6 +6,9 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
+/**
+ * Tests {@link VariableImpl#get() and {@link VariableImpl#put(Object)}}.
+ */
 public class VariableGetAndPutTest {
 
     private Variable<Character> var;

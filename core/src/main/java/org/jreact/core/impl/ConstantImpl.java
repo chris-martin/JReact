@@ -27,7 +27,7 @@ abstract class ConstantImpl<A>
 
     @Override
     public <B> Signal<B> map(
-            final F<A, B> function) {
+            final F<? super A, B> function) {
 
         return new MappedConstant<A, B>(this, function);
 

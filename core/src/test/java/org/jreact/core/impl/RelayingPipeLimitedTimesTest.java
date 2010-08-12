@@ -9,6 +9,9 @@ import static org.mockito.Mockito.verify;
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
+/**
+ * Tests {@link RelayingPipe#limit(int)}.
+ */
 public class RelayingPipeLimitedTimesTest {
 
     private PipeImpl<Character> pipe;

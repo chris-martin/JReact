@@ -35,7 +35,7 @@ class VacuousStream<A>
     @Override
     @SuppressWarnings("unchecked")
     public <B> Stream<B> map(
-            final F<A, B> function) {
+            final F<? super A, B> function) {
 
         return (Stream) this;
 

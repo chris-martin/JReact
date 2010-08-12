@@ -2,10 +2,10 @@
 
 <suite name="Integration">
 
-  <test name="Variable">
+  <test name="Variable basics">
 
     <classes>
-      <class name="org.jreact.core.impl.VariableBasicTest"/>
+      <class name="org.jreact.core.impl.VariableGetAndPutTest"/>
       <class name="org.jreact.core.impl.VariableLoopTest"/>
       <class name="org.jreact.core.impl.VariableChangesTest"/>
       <class name="org.jreact.core.impl.VariableLimitTest"/>
@@ -13,15 +13,38 @@
 
   </test>
 
-  <test name="Pipe">
+  <test name="Variable transformations">
+
+    <classes>
+      <class name="org.jreact.core.impl.VariableMapTest"/>
+    </classes>
+
+  </test>
+
+  <test name="Pipe basics">
 
     <classes>
       <class name="org.jreact.core.impl.PipePutTest"/>
-      <class name="org.jreact.core.impl.PipeLimitTimesTest"/>
-      <class name="org.jreact.core.impl.PipeLimitStreamTest"/>
       <class name="org.jreact.core.impl.PipeDependentEffectsTest"/>
       <class name="org.jreact.core.impl.PipeDependentSinksTest"/>
+    </classes>
+
+  </test>
+
+  <test name="Pipe limitations">
+
+    <classes>
+      <class name="org.jreact.core.impl.PipeLimitTimesTest"/>
+      <class name="org.jreact.core.impl.PipeLimitStreamTest"/>
       <class name="org.jreact.core.impl.RelayingPipeLimitedTimesTest"/>
+    </classes>
+
+  </test>
+
+  <test name="Pipe transformations">
+
+    <classes>
+      <class name="org.jreact.core.impl.PipeMapTest"/>
     </classes>
 
   </test>

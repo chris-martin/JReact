@@ -7,7 +7,7 @@ public interface Signal<A>
 
     @Override
     <B> Signal<B> map(
-        F<A, B> function
+        F<? super A, B> function
     );
 
 }

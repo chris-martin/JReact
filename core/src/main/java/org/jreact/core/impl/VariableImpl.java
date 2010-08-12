@@ -3,7 +3,7 @@ package org.jreact.core.impl;
 import org.jreact.core.Variable;
 
 class VariableImpl<A>
-        extends AbstractSignal<A>
+        extends SignalImpl<A>
         implements Variable<A> {
 
     A value;

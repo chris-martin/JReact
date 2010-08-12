@@ -16,7 +16,7 @@ public interface Stream<A>
 
     @Override
     <B> Stream<B> map(
-        F<A, B> function
+        F<? super A, B> function
     );
 
 }

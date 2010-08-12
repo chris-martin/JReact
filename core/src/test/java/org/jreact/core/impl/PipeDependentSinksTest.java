@@ -6,6 +6,9 @@ import org.testng.annotations.Test;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
+/**
+ * Tests {@link PipeImpl#dependentValueSinks}.
+ */
 public class PipeDependentSinksTest {
 
     private PipeImpl<Character> pipe;

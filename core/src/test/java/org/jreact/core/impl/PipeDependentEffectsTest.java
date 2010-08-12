@@ -7,6 +7,9 @@ import org.testng.annotations.Test;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
+/**
+ * Tests {@link PipeImpl#dependentEffects}.
+ */
 public class PipeDependentEffectsTest {
 
     private PipeImpl<Character> pipe;

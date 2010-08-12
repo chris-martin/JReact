@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/gwt/jreact-adapters.iml" filepath="$PROJECT_DIR$/gwt/jreact-adapters.iml" />
       <module fileurl="file://$PROJECT_DIR$/jreact-all.iml" filepath="$PROJECT_DIR$/jreact-all.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/jreact-core.iml" filepath="$PROJECT_DIR$/core/jreact-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core/jreact-core.iml" filepath="$PROJECT_DIR$/core/jreact-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/adapters/gwt/jreact-gwt.iml" filepath="$PROJECT_DIR$/adapters/gwt/jreact-gwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/gwt/jreact-gwt.iml" filepath="$PROJECT_DIR$/gwt/jreact-gwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/adapters/gxt/jreact-gxt.iml" filepath="$PROJECT_DIR$/adapters/gxt/jreact-gxt.iml" />

@@ -7,6 +7,9 @@ import org.testng.annotations.Test;
 
 import static org.mockito.Mockito.*;
 
+/**
+ * Tests {@link VariableImpl#changes()}.
+ */
 public class VariableChangesTest {
 
     private VariableImpl<Character> var;

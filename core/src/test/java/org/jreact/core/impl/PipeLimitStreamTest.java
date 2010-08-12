@@ -2,12 +2,16 @@ package org.jreact.core.impl;
 
 import fj.Effect;
 import org.jreact.core.Reactive;
+import org.jreact.core.Stream;
 import org.mockito.Mockito;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import static org.mockito.Mockito.*;
 
+/**
+ * Tests {@link PipeImpl#limit(Stream)}.
+ */
 public class PipeLimitStreamTest {
 
     private PipeImpl<Character> pipe;
