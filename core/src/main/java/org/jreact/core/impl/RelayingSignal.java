@@ -6,12 +6,12 @@ class RelayingSignal<A>
         extends SignalImpl<A> {
 
     final Value<? extends A> value;
-    final StreamImpl<? extends A> changes;
+    final StreamImpl<A> changes;
     boolean disposed;
 
     public RelayingSignal(
             final Value<? extends A> value,
-            final StreamImpl<? extends A> changes) {
+            final StreamImpl<A> changes) {
 
         this.value = value;
         this.changes = changes;
@@ -26,7 +26,7 @@ class RelayingSignal<A>
     }
 
     @Override
-    public StreamImpl<? extends A> changes() {
+    public StreamImpl<A> changes() {
 
         return changes;
 

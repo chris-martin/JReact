@@ -39,12 +39,16 @@ public class MappedSignal<A, B>
     public void put(
             final Value<A> value) {
 
-        b = null;
+        final B converted = function.f(value.get());
+        if (!converted.equals(b)) {
+            b = converted;
+            changes.put(b);
+        };
 
     }
 
     @Override
-    public StreamImpl<? extends B> changes() {
+    public StreamImpl<B> changes() {
 
         return changes;
 

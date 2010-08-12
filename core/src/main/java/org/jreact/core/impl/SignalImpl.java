@@ -8,7 +8,7 @@ abstract class SignalImpl<A>
         implements Signal<A>, Varying<A> {
 
     @Override
-    public abstract StreamImpl<? extends A> changes();
+    public abstract StreamImpl<A> changes();
 
     @Override
     public void loop(
