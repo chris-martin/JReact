@@ -4,7 +4,7 @@ import fj.Effect;
 import fj.F;
 import org.jreact.core.*;
 
-abstract class SignalImpl<A>
+abstract class AbstractSignal<A>
         implements Signal<A>, Varying<A> {
 
     @Override
