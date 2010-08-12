@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class VariableBasicTest {
+public class VariableGetAndPutTest {
 
     private Variable<Character> var;
 
