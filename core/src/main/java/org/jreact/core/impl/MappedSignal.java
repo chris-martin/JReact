@@ -3,7 +3,7 @@ package org.jreact.core.impl;
 import fj.F;
 import org.jreact.core.Value;
 
-public class MappedSignal<A, B>
+class MappedSignal<A, B>
         extends SignalImpl<B>
         implements ValueSink<A> {
 

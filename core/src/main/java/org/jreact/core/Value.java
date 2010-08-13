@@ -6,7 +6,7 @@ public interface Value<A> {
 
     /**
      * <code>x.equals(object)</code> is equivalent to
-     * <code>(object instanceof Value) && x.equals((Value) object)</code>.
+     * <code>object != null && object instanceof Value && equals((Value) object)</code>.
      */
     @Override
     boolean equals(
@@ -15,7 +15,8 @@ public interface Value<A> {
 
     /**
      * Determine's whether this Value's data is equal to another Value's data.
-     * <code>x.equals(value)</code> is equivalent to <code>x.get().equals(value.get())</code>.
+     * <code>x.equals(value)</code> is equivalent to
+     * <code>value != null && x.get().equals(value.get())</code>.
      */
     boolean equals(
         Value value

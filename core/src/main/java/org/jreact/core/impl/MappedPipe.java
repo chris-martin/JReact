@@ -3,7 +3,7 @@ package org.jreact.core.impl;
 import fj.F;
 import org.jreact.core.Value;
 
-public class MappedPipe<A, B>
+class MappedPipe<A, B>
         extends StreamImpl<B>
         implements ValueSink<A> {
 

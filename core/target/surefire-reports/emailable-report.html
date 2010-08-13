@@ -29,101 +29,188 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing=0 cellpadding=0 class="param">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Variable</td><td class="numi">18</td><td class="numi">18</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
-<tr class="stripe"><td style="text-align:left;padding-right:2em">Pipe</td><td class="numi">19</td><td class="numi">19</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Pipe limitations</td><td class="numi">11</td><td class="numi">11</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Constant basics</td><td class="numi">14</td><td class="numi">14</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Variable basics</td><td class="numi">5</td><td class="numi">5</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Pipe looping</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Variable looping</td><td class="numi">9</td><td class="numi">9</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Variable transformations</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Constant transformations</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Constant limitations</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Pipe transformations</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Pipe basics</td><td class="numi">5</td><td class="numi">5</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Variable limitations</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 <tr class="total"><td>Total</td>
-<td class="numi">37</td><td class="numi">37</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.5 seconds</td><td colspan="2">&nbsp;</td></tr>
+<td class="numi">64</td><td class="numi">64</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.6 seconds</td><td colspan="2">&nbsp;</td></tr>
 </table>
 <a id="summary"></a>
 <table cellspacing=0 cellpadding=0 class="passed">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
-<tr><th colspan="4">Variable &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="5">org.jreact.core.impl.VariableBasicTest<td><a href="#m1"><b>get</b>  </a></td><td class="numi">1</td><td class="numi">13</td></tr><tr class="passedodd"><td><a href="#m2"><b>setDifferentValue</b>  </a></td><td class="numi">1</td><td class="numi">4</td></tr><tr class="passedodd"><td><a href="#m3"><b>setMultiple</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m4"><b>setSameValue</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m5"><b>setThenGet</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
-<tr class="passedeven"><td rowspan="5">org.jreact.core.impl.VariableChangesTest<td><a href="#m6"><b>loop</b>  </a></td><td class="numi">1</td><td class="numi">18</td></tr><tr class="passedeven"><td><a href="#m7"><b>loopThenSet</b>  </a></td><td class="numi">1</td><td class="numi">5</td></tr><tr class="passedeven"><td><a href="#m8"><b>loopThenSetSame</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m9"><b>setThenLoop1</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m10"><b>setThenLoop2</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr>
-<tr class="passedodd"><td rowspan="4">org.jreact.core.impl.VariableLimitTest<td><a href="#m11"><b>disposeLoop</b>  </a></td><td class="numi">1</td><td class="numi">4</td></tr><tr class="passedodd"><td><a href="#m12"><b>disposeLoopPut</b>  </a></td><td class="numi">1</td><td class="numi">3</td></tr><tr class="passedodd"><td><a href="#m13"><b>disposePutLoopPut</b>  </a></td><td class="numi">1</td><td class="numi">4</td></tr><tr class="passedodd"><td><a href="#m14"><b>loopDisposePut</b>  </a></td><td class="numi">1</td><td class="numi">3</td></tr>
-<tr class="passedeven"><td rowspan="4">org.jreact.core.impl.VariableLoopTest<br>"Variable"<td><a href="#m15"><b>loop</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m16"><b>loopThenSet</b>  </a></td><td class="numi">1</td><td class="numi">11</td></tr><tr class="passedeven"><td><a href="#m17"><b>loopThenSetSame</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m18"><b>setThenLoop</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
-<tr><th colspan="4">Pipe &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="2">org.jreact.core.impl.PipeDependentEffectsTest<td><a href="#m19"><b>dependentEffect1</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m20"><b>dependentEffect2</b>  </a></td><td class="numi">1</td><td class="numi">3</td></tr>
-<tr class="passedeven"><td rowspan="2">org.jreact.core.impl.PipeDependentSinksTest<td><a href="#m21"><b>dependentValueSink1</b>  </a></td><td class="numi">1</td><td class="numi">3</td></tr><tr class="passedeven"><td><a href="#m22"><b>dependentValueSink2</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
-<tr class="passedodd"><td rowspan="2">org.jreact.core.impl.PipeLimitStreamTest<td><a href="#m23"><b>disposePut</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m24"><b>putDisposePut</b>  </a></td><td class="numi">1</td><td class="numi">5</td></tr>
-<tr class="passedeven"><td rowspan="5">org.jreact.core.impl.PipeLimitTimesTest<td><a href="#m25"><b>limit0TestDependents</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m26"><b>limit0TestLooping</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m27"><b>limit1TestDependents</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m28"><b>limit1TestLooping</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m29"><b>limit2TestLooping</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr>
-<tr class="passedodd"><td rowspan="5">org.jreact.core.impl.PipePutTest<td><a href="#m30"><b>loopThenPutA</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m31"><b>loopThenPutAAA</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m32"><b>loopThenPutABAA</b>  </a></td><td class="numi">1</td><td class="numi">3</td></tr><tr class="passedodd"><td><a href="#m33"><b>put</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m34"><b>putThenLoop</b>  </a></td><td class="numi">1</td><td class="numi">7</td></tr>
-<tr class="passedeven"><td rowspan="3">org.jreact.core.impl.RelayingPipeLimitedTimesTest<br>"Pipe"<td><a href="#m35"><b>doesGetDisposed</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m36"><b>initiallyNotDisposed</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m37"><b>stillNotDisposed</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr><th colspan="4">Pipe limitations &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">org.jreact.core.impl.PipeLimitStreamTest<td><a href="#m1"><b>disposePut</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m2"><b>putDisposePut</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="6">org.jreact.core.impl.PipeLimitTimesTest<td><a href="#m3"><b>limit0TestDependents</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m4"><b>limit0TestLooping</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m5"><b>limit1TestDependents</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m6"><b>limit1TestLooping</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m7"><b>limit1TestThreeDependents</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m8"><b>limit2TestLooping</b>  </a></td><td class="numi">1</td><td class="numi">3</td></tr>
+<tr class="passedodd"><td rowspan="3">org.jreact.core.impl.RelayingPipeLimitedTimesTest<br>"Pipe limitations"<td><a href="#m9"><b>doesGetDisposed</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m10"><b>initiallyNotDisposed</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m11"><b>stillNotDisposed</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr><th colspan="4">Constant basics &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="6">org.jreact.core.impl.ConstantEqualsObjectTest<td><a href="#m12"><b>equalsA</b>  </a></td><td class="numi">1</td><td class="numi">3</td></tr><tr class="passedodd"><td><a href="#m13"><b>equalsConstantA</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m14"><b>equalsMockValueA</b>  </a></td><td class="numi">1</td><td class="numi">237</td></tr><tr class="passedodd"><td><a href="#m15"><b>equalsMockValueB</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m16"><b>equalsNull</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m17"><b>equalsSelf</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="5">org.jreact.core.impl.ConstantEqualsValueTest<td><a href="#m18"><b>equalsConstantA</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m19"><b>equalsMockValueA</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m20"><b>equalsMockValueB</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m21"><b>equalsNull</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m22"><b>equalsSelf</b>  </a></td><td class="numi">1</td><td class="numi">7</td></tr>
+<tr class="passedodd"><td rowspan="1">org.jreact.core.impl.ConstantGetTest<td><a href="#m23"><b>get</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr>
+<tr class="passedeven"><td rowspan="2">org.jreact.core.impl.ConstantHashCodeTest<br>"Constant basics"<td><a href="#m24"><b>character</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m25"><b>object</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr><th colspan="4">Variable basics &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="5">org.jreact.core.impl.VariableGetAndPutTest<br>"Variable basics"<td><a href="#m26"><b>get</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m27"><b>setDifferentValue</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m28"><b>setMultiple</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m29"><b>setSameValue</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m30"><b>setThenGet</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Pipe looping &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">org.jreact.core.impl.PipeDependentEffectsTest<td><a href="#m31"><b>dependentEffect1</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m32"><b>dependentEffect2</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="2">org.jreact.core.impl.PipeDependentSinksTest<br>"Pipe looping"<td><a href="#m33"><b>dependentValueSink1</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m34"><b>dependentValueSink2</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr><th colspan="4">Variable looping &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="5">org.jreact.core.impl.VariableChangesTest<td><a href="#m35"><b>loop</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m36"><b>loopThenSet</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m37"><b>loopThenSetSame</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m38"><b>setThenLoop1</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m39"><b>setThenLoop2</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr>
+<tr class="passedeven"><td rowspan="4">org.jreact.core.impl.VariableLoopTest<br>"Variable looping"<td><a href="#m40"><b>loop</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m41"><b>loopThenSet</b>  </a></td><td class="numi">1</td><td class="numi">9</td></tr><tr class="passedeven"><td><a href="#m42"><b>loopThenSetSame</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m43"><b>setThenLoop</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr><th colspan="4">Variable transformations &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="4">org.jreact.core.impl.VariableMapTest<br>"Variable transformations"<td><a href="#m44"><b>putAbc</b>  </a></td><td class="numi">1</td><td class="numi">3</td></tr><tr class="passedodd"><td><a href="#m45"><b>putDef</b>  </a></td><td class="numi">1</td><td class="numi">4</td></tr><tr class="passedodd"><td><a href="#m46"><b>putDefXyzzy</b>  </a></td><td class="numi">1</td><td class="numi">5</td></tr><tr class="passedodd"><td><a href="#m47"><b>putNothing</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr><th colspan="4">Constant transformations &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="4">org.jreact.core.impl.ConstantMapTest<br>"Constant transformations"<td><a href="#m48"><b>beLazy</b>  </a></td><td class="numi">1</td><td class="numi">15</td></tr><tr class="passedodd"><td><a href="#m49"><b>callExactlyOnce</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m50"><b>callOnce</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m51"><b>get</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr><th colspan="4">Pipe transformations &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="4">org.jreact.core.impl.PipeMapTest<br>"Pipe transformations"<td><a href="#m52"><b>putAbc</b>  </a></td><td class="numi">1</td><td class="numi">3</td></tr><tr class="passedodd"><td><a href="#m53"><b>putAbcAbc</b>  </a></td><td class="numi">1</td><td class="numi">3</td></tr><tr class="passedodd"><td><a href="#m54"><b>putAbcDef</b>  </a></td><td class="numi">1</td><td class="numi">3</td></tr><tr class="passedodd"><td><a href="#m55"><b>putDefXyzzy</b>  </a></td><td class="numi">1</td><td class="numi">3</td></tr>
+<tr><th colspan="4">Pipe basics &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="5">org.jreact.core.impl.PipePutTest<br>"Pipe basics"<td><a href="#m56"><b>loopThenPutA</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m57"><b>loopThenPutAAA</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m58"><b>loopThenPutABAA</b>  </a></td><td class="numi">1</td><td class="numi">3</td></tr><tr class="passedodd"><td><a href="#m59"><b>put</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m60"><b>putThenLoop</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr><th colspan="4">Variable limitations &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="4">org.jreact.core.impl.VariableLimitTest<br>"Variable limitations"<td><a href="#m61"><b>disposeLoop</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m62"><b>disposeLoopPut</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m63"><b>disposePutLoopPut</b>  </a></td><td class="numi">1</td><td class="numi">3</td></tr><tr class="passedodd"><td><a href="#m64"><b>loopDisposePut</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr>
 </table>
-<h1>Variable</h1>
-<a id="m1"></a><h2>org.jreact.core.impl.VariableBasicTest:get</h2>
+<h1>Pipe limitations</h1>
+<a id="m1"></a><h2>org.jreact.core.impl.PipeLimitStreamTest:disposePut</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m2"></a><h2>org.jreact.core.impl.VariableBasicTest:setDifferentValue</h2>
+<a id="m2"></a><h2>org.jreact.core.impl.PipeLimitStreamTest:putDisposePut</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m3"></a><h2>org.jreact.core.impl.VariableBasicTest:setMultiple</h2>
+<a id="m3"></a><h2>org.jreact.core.impl.PipeLimitTimesTest:limit0TestDependents</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m4"></a><h2>org.jreact.core.impl.VariableBasicTest:setSameValue</h2>
+<a id="m4"></a><h2>org.jreact.core.impl.PipeLimitTimesTest:limit0TestLooping</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m5"></a><h2>org.jreact.core.impl.VariableBasicTest:setThenGet</h2>
+<a id="m5"></a><h2>org.jreact.core.impl.PipeLimitTimesTest:limit1TestDependents</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m6"></a><h2>org.jreact.core.impl.VariableChangesTest:loop</h2>
+<a id="m6"></a><h2>org.jreact.core.impl.PipeLimitTimesTest:limit1TestLooping</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m7"></a><h2>org.jreact.core.impl.VariableChangesTest:loopThenSet</h2>
+<a id="m7"></a><h2>org.jreact.core.impl.PipeLimitTimesTest:limit1TestThreeDependents</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m8"></a><h2>org.jreact.core.impl.VariableChangesTest:loopThenSetSame</h2>
+<a id="m8"></a><h2>org.jreact.core.impl.PipeLimitTimesTest:limit2TestLooping</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m9"></a><h2>org.jreact.core.impl.VariableChangesTest:setThenLoop1</h2>
+<a id="m9"></a><h2>org.jreact.core.impl.RelayingPipeLimitedTimesTest:doesGetDisposed</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m10"></a><h2>org.jreact.core.impl.VariableChangesTest:setThenLoop2</h2>
+<a id="m10"></a><h2>org.jreact.core.impl.RelayingPipeLimitedTimesTest:initiallyNotDisposed</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m11"></a><h2>org.jreact.core.impl.VariableLimitTest:disposeLoop</h2>
+<a id="m11"></a><h2>org.jreact.core.impl.RelayingPipeLimitedTimesTest:stillNotDisposed</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m12"></a><h2>org.jreact.core.impl.VariableLimitTest:disposeLoopPut</h2>
+<h1>Constant basics</h1>
+<a id="m12"></a><h2>org.jreact.core.impl.ConstantEqualsObjectTest:equalsA</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m13"></a><h2>org.jreact.core.impl.VariableLimitTest:disposePutLoopPut</h2>
+<a id="m13"></a><h2>org.jreact.core.impl.ConstantEqualsObjectTest:equalsConstantA</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m14"></a><h2>org.jreact.core.impl.VariableLimitTest:loopDisposePut</h2>
+<a id="m14"></a><h2>org.jreact.core.impl.ConstantEqualsObjectTest:equalsMockValueA</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m15"></a><h2>org.jreact.core.impl.VariableLoopTest:loop</h2>
+<a id="m15"></a><h2>org.jreact.core.impl.ConstantEqualsObjectTest:equalsMockValueB</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m16"></a><h2>org.jreact.core.impl.VariableLoopTest:loopThenSet</h2>
+<a id="m16"></a><h2>org.jreact.core.impl.ConstantEqualsObjectTest:equalsNull</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m17"></a><h2>org.jreact.core.impl.VariableLoopTest:loopThenSetSame</h2>
+<a id="m17"></a><h2>org.jreact.core.impl.ConstantEqualsObjectTest:equalsSelf</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m18"></a><h2>org.jreact.core.impl.VariableLoopTest:setThenLoop</h2>
+<a id="m18"></a><h2>org.jreact.core.impl.ConstantEqualsValueTest:equalsConstantA</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h1>Pipe</h1>
-<a id="m19"></a><h2>org.jreact.core.impl.PipeDependentEffectsTest:dependentEffect1</h2>
+<a id="m19"></a><h2>org.jreact.core.impl.ConstantEqualsValueTest:equalsMockValueA</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m20"></a><h2>org.jreact.core.impl.PipeDependentEffectsTest:dependentEffect2</h2>
+<a id="m20"></a><h2>org.jreact.core.impl.ConstantEqualsValueTest:equalsMockValueB</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m21"></a><h2>org.jreact.core.impl.PipeDependentSinksTest:dependentValueSink1</h2>
+<a id="m21"></a><h2>org.jreact.core.impl.ConstantEqualsValueTest:equalsNull</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m22"></a><h2>org.jreact.core.impl.PipeDependentSinksTest:dependentValueSink2</h2>
+<a id="m22"></a><h2>org.jreact.core.impl.ConstantEqualsValueTest:equalsSelf</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m23"></a><h2>org.jreact.core.impl.PipeLimitStreamTest:disposePut</h2>
+<a id="m23"></a><h2>org.jreact.core.impl.ConstantGetTest:get</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m24"></a><h2>org.jreact.core.impl.PipeLimitStreamTest:putDisposePut</h2>
+<a id="m24"></a><h2>org.jreact.core.impl.ConstantHashCodeTest:character</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m25"></a><h2>org.jreact.core.impl.PipeLimitTimesTest:limit0TestDependents</h2>
+<a id="m25"></a><h2>org.jreact.core.impl.ConstantHashCodeTest:object</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m26"></a><h2>org.jreact.core.impl.PipeLimitTimesTest:limit0TestLooping</h2>
+<h1>Variable basics</h1>
+<a id="m26"></a><h2>org.jreact.core.impl.VariableGetAndPutTest:get</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m27"></a><h2>org.jreact.core.impl.PipeLimitTimesTest:limit1TestDependents</h2>
+<a id="m27"></a><h2>org.jreact.core.impl.VariableGetAndPutTest:setDifferentValue</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m28"></a><h2>org.jreact.core.impl.PipeLimitTimesTest:limit1TestLooping</h2>
+<a id="m28"></a><h2>org.jreact.core.impl.VariableGetAndPutTest:setMultiple</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m29"></a><h2>org.jreact.core.impl.PipeLimitTimesTest:limit2TestLooping</h2>
+<a id="m29"></a><h2>org.jreact.core.impl.VariableGetAndPutTest:setSameValue</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m30"></a><h2>org.jreact.core.impl.PipePutTest:loopThenPutA</h2>
+<a id="m30"></a><h2>org.jreact.core.impl.VariableGetAndPutTest:setThenGet</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m31"></a><h2>org.jreact.core.impl.PipePutTest:loopThenPutAAA</h2>
+<h1>Pipe looping</h1>
+<a id="m31"></a><h2>org.jreact.core.impl.PipeDependentEffectsTest:dependentEffect1</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m32"></a><h2>org.jreact.core.impl.PipePutTest:loopThenPutABAA</h2>
+<a id="m32"></a><h2>org.jreact.core.impl.PipeDependentEffectsTest:dependentEffect2</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m33"></a><h2>org.jreact.core.impl.PipePutTest:put</h2>
+<a id="m33"></a><h2>org.jreact.core.impl.PipeDependentSinksTest:dependentValueSink1</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m34"></a><h2>org.jreact.core.impl.PipePutTest:putThenLoop</h2>
+<a id="m34"></a><h2>org.jreact.core.impl.PipeDependentSinksTest:dependentValueSink2</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m35"></a><h2>org.jreact.core.impl.RelayingPipeLimitedTimesTest:doesGetDisposed</h2>
+<h1>Variable looping</h1>
+<a id="m35"></a><h2>org.jreact.core.impl.VariableChangesTest:loop</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m36"></a><h2>org.jreact.core.impl.RelayingPipeLimitedTimesTest:initiallyNotDisposed</h2>
+<a id="m36"></a><h2>org.jreact.core.impl.VariableChangesTest:loopThenSet</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m37"></a><h2>org.jreact.core.impl.RelayingPipeLimitedTimesTest:stillNotDisposed</h2>
+<a id="m37"></a><h2>org.jreact.core.impl.VariableChangesTest:loopThenSetSame</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m38"></a><h2>org.jreact.core.impl.VariableChangesTest:setThenLoop1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m39"></a><h2>org.jreact.core.impl.VariableChangesTest:setThenLoop2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m40"></a><h2>org.jreact.core.impl.VariableLoopTest:loop</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m41"></a><h2>org.jreact.core.impl.VariableLoopTest:loopThenSet</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m42"></a><h2>org.jreact.core.impl.VariableLoopTest:loopThenSetSame</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m43"></a><h2>org.jreact.core.impl.VariableLoopTest:setThenLoop</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Variable transformations</h1>
+<a id="m44"></a><h2>org.jreact.core.impl.VariableMapTest:putAbc</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m45"></a><h2>org.jreact.core.impl.VariableMapTest:putDef</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m46"></a><h2>org.jreact.core.impl.VariableMapTest:putDefXyzzy</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m47"></a><h2>org.jreact.core.impl.VariableMapTest:putNothing</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Constant transformations</h1>
+<a id="m48"></a><h2>org.jreact.core.impl.ConstantMapTest:beLazy</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m49"></a><h2>org.jreact.core.impl.ConstantMapTest:callExactlyOnce</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m50"></a><h2>org.jreact.core.impl.ConstantMapTest:callOnce</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m51"></a><h2>org.jreact.core.impl.ConstantMapTest:get</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Constant limitations</h1>
+<h1>Pipe transformations</h1>
+<a id="m52"></a><h2>org.jreact.core.impl.PipeMapTest:putAbc</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m53"></a><h2>org.jreact.core.impl.PipeMapTest:putAbcAbc</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m54"></a><h2>org.jreact.core.impl.PipeMapTest:putAbcDef</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m55"></a><h2>org.jreact.core.impl.PipeMapTest:putDefXyzzy</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Pipe basics</h1>
+<a id="m56"></a><h2>org.jreact.core.impl.PipePutTest:loopThenPutA</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m57"></a><h2>org.jreact.core.impl.PipePutTest:loopThenPutAAA</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m58"></a><h2>org.jreact.core.impl.PipePutTest:loopThenPutABAA</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m59"></a><h2>org.jreact.core.impl.PipePutTest:put</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m60"></a><h2>org.jreact.core.impl.PipePutTest:putThenLoop</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Variable limitations</h1>
+<a id="m61"></a><h2>org.jreact.core.impl.VariableLimitTest:disposeLoop</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m62"></a><h2>org.jreact.core.impl.VariableLimitTest:disposeLoopPut</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m63"></a><h2>org.jreact.core.impl.VariableLimitTest:disposePutLoopPut</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m64"></a><h2>org.jreact.core.impl.VariableLimitTest:loopDisposePut</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

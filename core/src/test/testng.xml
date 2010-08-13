@@ -2,51 +2,80 @@
 
 <suite name="Integration">
 
-  <test name="Variable basics">
+  <test name="Constant basics">
+    <classes>
+      <class name="org.jreact.core.impl.ConstantGetTest"/>
+      <class name="org.jreact.core.impl.ConstantEqualsObjectTest"/>
+      <class name="org.jreact.core.impl.ConstantEqualsValueTest"/>
+      <class name="org.jreact.core.impl.ConstantHashCodeTest"/>
+    </classes>
+  </test>
 
+  <test name="Constant limitations">
+    <classes>
+      <class name="org.jreact.core.impl.ConstantLimitTest"/>
+    </classes>
+  </test>
+
+  <test name="Constant transformations">
+    <classes>
+      <class name="org.jreact.core.impl.ConstantMapTest"/>
+    </classes>
+  </test>
+
+  <test name="Variable basics">
     <classes>
       <class name="org.jreact.core.impl.VariableGetAndPutTest"/>
+      <class name="org.jreact.core.impl.VariableEqualsObjectTest"/>
+      <class name="org.jreact.core.impl.VariableEqualsValueTest"/>
+      <class name="org.jreact.core.impl.VariableHashCodeTest"/>
+    </classes>
+  </test>
+
+  <test name="Variable looping">
+    <classes>
       <class name="org.jreact.core.impl.VariableLoopTest"/>
       <class name="org.jreact.core.impl.VariableChangesTest"/>
+    </classes>
+  </test>
+
+  <test name="Variable limitations">
+    <classes>
       <class name="org.jreact.core.impl.VariableLimitTest"/>
     </classes>
-
   </test>
 
   <test name="Variable transformations">
-
     <classes>
       <class name="org.jreact.core.impl.VariableMapTest"/>
     </classes>
-
   </test>
 
   <test name="Pipe basics">
-
     <classes>
       <class name="org.jreact.core.impl.PipePutTest"/>
+    </classes>
+  </test>
+
+  <test name="Pipe looping">
+    <classes>
       <class name="org.jreact.core.impl.PipeDependentEffectsTest"/>
       <class name="org.jreact.core.impl.PipeDependentSinksTest"/>
     </classes>
-
   </test>
 
   <test name="Pipe limitations">
-
     <classes>
       <class name="org.jreact.core.impl.PipeLimitTimesTest"/>
       <class name="org.jreact.core.impl.PipeLimitStreamTest"/>
       <class name="org.jreact.core.impl.RelayingPipeLimitedTimesTest"/>
     </classes>
-
   </test>
 
   <test name="Pipe transformations">
-
     <classes>
       <class name="org.jreact.core.impl.PipeMapTest"/>
     </classes>
-
   </test>
 
 </suite>

@@ -3,7 +3,7 @@ package org.jreact.core.impl;
 import fj.F;
 import org.jreact.core.Value;
 
-public class MappedConstant<A, B>
+class MappedConstant<A, B>
         extends ConstantImpl<B> {
 
     Value<A> a;

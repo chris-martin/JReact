@@ -2,10 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14840a10-ba40-47ad-ad3a-a73704cfeaab" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/SimpleConstant.java" afterPath="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/SimpleConstant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/ValueConstant.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/jreact-core.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/LazyConstant.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/MappedPipe.java" afterPath="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/MappedPipe.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/MappedConstant.java" afterPath="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/MappedConstant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/test/testng.xml" afterPath="$PROJECT_DIR$/core/src/test/testng.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantEqualsObjectTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantMapTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/DisposableConstant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/SignalImpl.java" afterPath="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/SignalImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/VariableEqualsObjectTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/org/jreact/core/Value.java" afterPath="$PROJECT_DIR$/core/src/main/java/org/jreact/core/Value.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantLimitTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/junk" afterPath="$PROJECT_DIR$/junk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/MappedSignal.java" afterPath="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/MappedSignal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/AbstractValue.java" afterPath="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/AbstractValue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/VariableEqualsValueTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/PipeLimitTimesTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/PipeLimitTimesTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantHashCodeTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/VariableHashCodeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantGetTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantEqualsValueTest.java" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="reactive.iws" />
@@ -17,7 +36,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/jreact$JReact_Core.ic" NAME="JReact Core Coverage Results" MODIFIED="1281660114640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/jreact$JReact_Core.ic" NAME="JReact Core Coverage Results" MODIFIED="1281667366781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.jreact.core.impl.*</FILTER>
     </SUITE>
   </component>
@@ -70,37 +89,37 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SignalImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/SignalImpl.java">
+      <file leaf-file-name="ConstantImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/ConstantImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="46" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0">
+            <state line="8" column="23" selection-start="181" selection-end="181" vertical-scroll-proportion="0.051903114">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MappedSignal.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/MappedSignal.java">
+      <file leaf-file-name="DisposableConstant.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/DisposableConstant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="13" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0">
+            <state line="36" column="5" selection-start="600" selection-end="600" vertical-scroll-proportion="-33.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testng.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/test/testng.xml">
+      <file leaf-file-name="MappedConstant.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/MappedConstant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="junk" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/junk">
+      <file leaf-file-name="RelayingPipe.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/RelayingPipe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="440" selection-end="440" vertical-scroll-proportion="0.9083045">
+            <state line="3" column="19" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -120,22 +139,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/core/src/test/testng.xml" />
-        <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/Stream.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/Reactive.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/Signal.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/ConstantImpl.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/MappedConstant.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/VacuousStream.java" />
-        <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/VariableMapTest.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/MappedPipe.java" />
-        <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/PipeMapTest.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/WildcardValueSink.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantEqualsTest.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantEqualsObjectTest.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantEqualsValueTest.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/AbstractValue.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/Value.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/SignalImpl.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/StreamImpl.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/RelayingSignal.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantHashCodeTest.java" />
+        <option value="$PROJECT_DIR$/core/src/test/testng.xml" />
+        <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantMapTest.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/LimitedConstant.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/SimpleConstant.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/MappedSignal.java" />
-        <option value="$PROJECT_DIR$/junk" />
+        <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/ValueConstant.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/MappedPipe.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/MappedConstant.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/DisposableConstant.java" />
       </list>
     </option>
   </component>
@@ -272,6 +291,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jreact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jreact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -307,6 +356,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,6 +402,9 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/adapters/gxt" />
       <recent name="$PROJECT_DIR$/adapters/gwt" />
@@ -356,14 +412,14 @@
       <recent name="$PROJECT_DIR$/core/implementation" />
       <recent name="$PROJECT_DIR$/core/api" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="org.jreact.core" />
-      <recent name="org.jreact.reactive" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/core/src/test" />
       <recent name="$PROJECT_DIR$/core/src/test/java/org/jreact/core" />
       <recent name="$PROJECT_DIR$/core" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.jreact.core" />
+      <recent name="org.jreact.reactive" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.JReact Core">
@@ -560,23 +616,23 @@
     <frame x="-1" y="51" width="1282" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32711038" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.6386139" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.0" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882166" sideWeight="0.33663365" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3262987" sideWeight="0.6386139" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.0" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34983498" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="372" y="108" width="397" height="611" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34415585" sideWeight="0.6413167" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.68976897" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34415585" sideWeight="0.6413167" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -611,86 +667,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/PipeMapTest.java">
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantHashCodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="5" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/PipeDependentEffectsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="20" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/AbstractValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="15" selection-start="77" selection-end="77" vertical-scroll-proportion="0.115830116" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/RelayingPipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/ConstantImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="15" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/MappedPipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.20/jre/lib/rt.jar!/java/util/List.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="12" selection-start="430" selection-end="430" vertical-scroll-proportion="0.33213645" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/ValueSink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/RelayingSignal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/VariableImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/VariableMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="0" selection-start="2163" selection-end="2163" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/StreamImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="21" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/SignalImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="46" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/MappedSignal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="13" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junk">
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantLimitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="440" selection-end="440" vertical-scroll-proportion="0.9083045">
+        <state line="2" column="13" selection-start="44" selection-end="44" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/Reactives.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="19" selection-start="77" selection-end="77" vertical-scroll-proportion="0.11111111">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/SignalImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="15" selection-start="104" selection-end="104" vertical-scroll-proportion="0.15570934">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/SimpleConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.10380623">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/MappedSignal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="75" selection-end="75" vertical-scroll-proportion="0.13416816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/PipeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="127" selection-end="127" vertical-scroll-proportion="0.16100179">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/StreamImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="6" selection-start="215" selection-end="215" vertical-scroll-proportion="0.29516995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/ValueConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="68" selection-end="68" vertical-scroll-proportion="0.110497236">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/RelayingPipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/MappedPipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="26" selection-start="114" selection-end="124" vertical-scroll-proportion="0.16100179">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/MappedConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/DisposableConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="5" selection-start="600" selection-end="600" vertical-scroll-proportion="-33.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/jreact/core/impl/ConstantImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="23" selection-start="181" selection-end="181" vertical-scroll-proportion="0.051903114">
           <folding />
         </state>
       </provider>

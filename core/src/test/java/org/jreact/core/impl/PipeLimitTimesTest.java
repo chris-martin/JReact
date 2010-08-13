@@ -59,7 +59,7 @@ public class PipeLimitTimesTest {
     @Test
     public void limit1TestDependents() {
 
-        final Reactive<Character> limited = pipe.limit(1);
+        pipe.limit(1);
 
         assertEquals(pipe.dependentValueSinks.size(), 1);
 
@@ -97,6 +97,25 @@ public class PipeLimitTimesTest {
 
         verify(effect1, times(5)).e('a');
         verify(effect2, times(2)).e('a');
+
+    }
+
+    @Test
+    public void limit1TestThreeDependents() {
+
+        pipe.limit(1);
+        pipe.limit(1);
+        pipe.limit(2);
+
+        assertEquals(pipe.dependentValueSinks.size(), 3);
+
+        pipe.put('a');
+
+        assertEquals(pipe.dependentValueSinks.size(), 1);
+
+        pipe.put('a');
+
+        assertEquals(pipe.dependentValueSinks.size(), 0);
 
     }
 

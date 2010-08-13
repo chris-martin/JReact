@@ -9,7 +9,7 @@ abstract class AbstractValue<A>
     public boolean equals(
             final Object object) {
 
-        return (object instanceof Value) && equals((Value) object);
+        return object != null && object instanceof Value && equals((Value) object);
 
     }
 
@@ -17,7 +17,7 @@ abstract class AbstractValue<A>
     public boolean equals(
             final Value value) {
 
-        return get().equals(value.get());
+        return value != null && get().equals(value.get());
 
     }
 

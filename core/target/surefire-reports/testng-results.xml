@@ -1,242 +1,404 @@
 <testng-results>
   <reporter-output>
   </reporter-output>
-  <suite name="Integration" duration-ms="542" started-at="2010-08-09T01:08:16Z" finished-at="2010-08-09T01:08:17Z">
+  <suite name="Integration" duration-ms="583" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
     <groups>
     </groups>
-    <test name="Variable" duration-ms="435" started-at="2010-08-09T01:08:16Z" finished-at="2010-08-09T01:08:17Z">
-      <class name="org.jreact.core.impl.VariableLimitTest">
-        <test-method status="PASS" signature="disposeLoop()" name="disposeLoop" duration-ms="4" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="disposeLoopPut()" name="disposeLoopPut" duration-ms="3" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="disposePutLoopPut()" name="disposePutLoopPut" duration-ms="4" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="loopDisposePut()" name="loopDisposePut" duration-ms="3" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-      </class>
-      <class name="org.jreact.core.impl.VariableChangesTest">
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="164" started-at="2010-08-09T01:08:16Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="loop()" name="loop" duration-ms="18" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="loopThenSet()" name="loopThenSet" duration-ms="5" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="loopThenSetSame()" name="loopThenSetSame" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="setThenLoop1()" name="setThenLoop1" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="setThenLoop2()" name="setThenLoop2" duration-ms="2" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-      </class>
-      <class name="org.jreact.core.impl.VariableBasicTest">
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="5" started-at="2010-08-09T01:08:16Z" finished-at="2010-08-09T01:08:16Z">
-        </test-method>
-        <test-method status="PASS" signature="get()" name="get" duration-ms="13" started-at="2010-08-09T01:08:16Z" finished-at="2010-08-09T01:08:16Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="1" started-at="2010-08-09T01:08:16Z" finished-at="2010-08-09T01:08:16Z">
-        </test-method>
-        <test-method status="PASS" signature="setDifferentValue()" name="setDifferentValue" duration-ms="4" started-at="2010-08-09T01:08:16Z" finished-at="2010-08-09T01:08:16Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="1" started-at="2010-08-09T01:08:16Z" finished-at="2010-08-09T01:08:16Z">
-        </test-method>
-        <test-method status="PASS" signature="setMultiple()" name="setMultiple" duration-ms="0" started-at="2010-08-09T01:08:16Z" finished-at="2010-08-09T01:08:16Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:16Z" finished-at="2010-08-09T01:08:16Z">
-        </test-method>
-        <test-method status="PASS" signature="setSameValue()" name="setSameValue" duration-ms="1" started-at="2010-08-09T01:08:16Z" finished-at="2010-08-09T01:08:16Z">
-        </test-method>
-        <test-method status="PASS" signature="setThenGet()" name="setThenGet" duration-ms="0" started-at="2010-08-09T01:08:16Z" finished-at="2010-08-09T01:08:16Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:16Z" finished-at="2010-08-09T01:08:16Z">
-        </test-method>
-      </class>
-      <class name="org.jreact.core.impl.VariableLoopTest">
-        <test-method status="PASS" signature="loop()" name="loop" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="loopThenSet()" name="loopThenSet" duration-ms="11" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="loopThenSetSame()" name="loopThenSetSame" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="setThenLoop()" name="setThenLoop" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-      </class>
-    </test>
-    <test name="Pipe" duration-ms="86" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+    <test name="Pipe limitations" duration-ms="35" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
       <class name="org.jreact.core.impl.PipeLimitTimesTest">
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="limit0TestDependents()" name="limit0TestDependents" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="limit0TestDependents()" name="limit0TestDependents" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="limit0TestLooping()" name="limit0TestLooping" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="limit0TestLooping()" name="limit0TestLooping" duration-ms="2" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="limit1TestDependents()" name="limit1TestDependents" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="limit1TestDependents()" name="limit1TestDependents" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="limit1TestLooping()" name="limit1TestLooping" duration-ms="2" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="limit1TestLooping()" name="limit1TestLooping" duration-ms="2" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="limit1TestThreeDependents()" name="limit1TestThreeDependents" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="limit2TestLooping()" name="limit2TestLooping" duration-ms="2" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-      </class>
-      <class name="org.jreact.core.impl.PipeDependentSinksTest">
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="8" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="limit2TestLooping()" name="limit2TestLooping" duration-ms="3" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="dependentValueSink1()" name="dependentValueSink1" duration-ms="3" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="dependentValueSink2()" name="dependentValueSink2" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-      </class>
-      <class name="org.jreact.core.impl.RelayingPipeLimitedTimesTest">
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="19" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="doesGetDisposed()" name="doesGetDisposed" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="initiallyNotDisposed()" name="initiallyNotDisposed" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="stillNotDisposed()" name="stillNotDisposed" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
-        </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
       </class>
       <class name="org.jreact.core.impl.PipeLimitStreamTest">
-        <test-method status="PASS" signature="disposePut()" name="disposePut" duration-ms="2" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="disposePut()" name="disposePut" duration-ms="2" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="putDisposePut()" name="putDisposePut" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="putDisposePut()" name="putDisposePut" duration-ms="5" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+      </class>
+      <class name="org.jreact.core.impl.RelayingPipeLimitedTimesTest">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="10" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="doesGetDisposed()" name="doesGetDisposed" duration-ms="2" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="3" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="initiallyNotDisposed()" name="initiallyNotDisposed" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="stillNotDisposed()" name="stillNotDisposed" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Constant basics" duration-ms="307" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+      <class name="org.jreact.core.impl.ConstantEqualsValueTest">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="equalsConstantA()" name="equalsConstantA" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="equalsMockValueA()" name="equalsMockValueA" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="equalsMockValueB()" name="equalsMockValueB" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="equalsSelf()" name="equalsSelf" duration-ms="7" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="equalsNull()" name="equalsNull" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+      </class>
+      <class name="org.jreact.core.impl.ConstantGetTest">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="get()" name="get" duration-ms="2" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+      </class>
+      <class name="org.jreact.core.impl.ConstantHashCodeTest">
+        <test-method status="PASS" signature="character()" name="character" duration-ms="2" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="object()" name="object" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+      </class>
+      <class name="org.jreact.core.impl.ConstantEqualsObjectTest">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="4" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="equalsA()" name="equalsA" duration-ms="3" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="equalsConstantA()" name="equalsConstantA" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="equalsMockValueA()" name="equalsMockValueA" duration-ms="237" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="equalsMockValueB()" name="equalsMockValueB" duration-ms="2" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="equalsNull()" name="equalsNull" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="equalsSelf()" name="equalsSelf" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Variable basics" duration-ms="7" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+      <class name="org.jreact.core.impl.VariableGetAndPutTest">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="3" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="setDifferentValue()" name="setDifferentValue" duration-ms="2" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="get()" name="get" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="setSameValue()" name="setSameValue" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="setMultiple()" name="setMultiple" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="setThenGet()" name="setThenGet" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Pipe looping" duration-ms="17" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+      <class name="org.jreact.core.impl.PipeDependentSinksTest">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="9" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="dependentValueSink1()" name="dependentValueSink1" duration-ms="2" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="dependentValueSink2()" name="dependentValueSink2" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
       </class>
       <class name="org.jreact.core.impl.PipeDependentEffectsTest">
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="dependentEffect1()" name="dependentEffect1" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="dependentEffect1()" name="dependentEffect1" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="dependentEffect2()" name="dependentEffect2" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="dependentEffect2()" name="dependentEffect2" duration-ms="3" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
       </class>
+    </test>
+    <test name="Variable looping" duration-ms="33" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+      <class name="org.jreact.core.impl.VariableChangesTest">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="7" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="loop()" name="loop" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="loopThenSet()" name="loopThenSet" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="loopThenSetSame()" name="loopThenSetSame" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="setThenLoop1()" name="setThenLoop1" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="setThenLoop2()" name="setThenLoop2" duration-ms="2" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+      </class>
+      <class name="org.jreact.core.impl.VariableLoopTest">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="loop()" name="loop" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="loopThenSet()" name="loopThenSet" duration-ms="9" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="loopThenSetSame()" name="loopThenSetSame" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="setThenLoop()" name="setThenLoop" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Variable transformations" duration-ms="24" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+      <class name="org.jreact.core.impl.VariableMapTest">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="3" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="putAbc()" name="putAbc" duration-ms="3" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="2" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="putDef()" name="putDef" duration-ms="4" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="3" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="putDefXyzzy()" name="putDefXyzzy" duration-ms="5" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="2" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="putNothing()" name="putNothing" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Constant transformations" duration-ms="87" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+      <class name="org.jreact.core.impl.ConstantMapTest">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="64" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="beLazy()" name="beLazy" duration-ms="15" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="callExactlyOnce()" name="callExactlyOnce" duration-ms="2" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="callOnce()" name="callOnce" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="get()" name="get" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Constant limitations" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+    </test>
+    <test name="Pipe transformations" duration-ms="21" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+      <class name="org.jreact.core.impl.PipeMapTest">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="putAbc()" name="putAbc" duration-ms="3" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="2" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="putAbcAbc()" name="putAbcAbc" duration-ms="3" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="2" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="putAbcDef()" name="putAbcDef" duration-ms="3" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="2" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="putDefXyzzy()" name="putDefXyzzy" duration-ms="3" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Pipe basics" duration-ms="10" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
       <class name="org.jreact.core.impl.PipePutTest">
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="loopThenPutA()" name="loopThenPutA" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="loopThenPutA()" name="loopThenPutA" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="loopThenPutAAA()" name="loopThenPutAAA" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="loopThenPutAAA()" name="loopThenPutAAA" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="loopThenPutABAA()" name="loopThenPutABAA" duration-ms="3" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="loopThenPutABAA()" name="loopThenPutABAA" duration-ms="3" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="1" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="put()" name="put" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="putThenLoop()" name="putThenLoop" duration-ms="7" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="putThenLoop()" name="putThenLoop" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
-        <test-method status="PASS" signature="put()" name="put" duration-ms="0" started-at="2010-08-09T01:08:17Z" finished-at="2010-08-09T01:08:17Z">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Variable limitations" duration-ms="13" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+      <class name="org.jreact.core.impl.VariableLimitTest">
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="disposeLoop()" name="disposeLoop" duration-ms="2" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="disposeLoopPut()" name="disposeLoopPut" duration-ms="2" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="disposePutLoopPut()" name="disposePutLoopPut" duration-ms="3" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createMocks()" name="createMocks" is-config="true" duration-ms="0" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="createTestSubjects()" name="createTestSubjects" is-config="true" duration-ms="1" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
+        </test-method>
+        <test-method status="PASS" signature="loopDisposePut()" name="loopDisposePut" duration-ms="2" started-at="2010-08-12T22:42:14Z" finished-at="2010-08-12T22:42:14Z">
         </test-method>
       </class>
     </test>
