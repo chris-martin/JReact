@@ -11,7 +11,7 @@ import static org.testng.Assert.assertEquals;
 /**
  * Tests {@link Signal#map(F)}.
  */
-public class ConstantMapTest {
+public class SignalMapTest {
 
     private Signal<String> a;
     private F<String, Integer> length;
@@ -19,7 +19,7 @@ public class ConstantMapTest {
     @BeforeMethod
     public void createTestSubjects() {
 
-        a = Reactives.constant("abc");
+        a = Reactives.signal("abc");
 
     }
 

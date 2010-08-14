@@ -8,12 +8,12 @@ import static org.testng.Assert.assertEquals;
 /**
  * Tests {@link Signal#hashCode()}.
  */
-public class ConstantHashCodeTest {
+public class SignalHashCodeTest {
 
     @Test
     public void character() {
 
-        final Signal a = Reactives.constant('a');
+        final Signal a = Reactives.signal('a');
 
         assertEquals(a.hashCode(), ((Character) 'a').hashCode());
 
@@ -29,7 +29,7 @@ public class ConstantHashCodeTest {
             }
         };
 
-        final Signal a = Reactives.constant(object);
+        final Signal a = Reactives.signal(object);
 
         assertEquals(a.hashCode(), 5);
 

@@ -10,7 +10,7 @@ import static org.mockito.Mockito.*;
 /**
  * Tests {@link Signal#limit(Stream)}.
  */
-public class ConstantLimitTest {
+public class SignalLimitTest {
 
     private Signal<Character> a;
     private Pipe<Object> dispose1;
@@ -22,7 +22,7 @@ public class ConstantLimitTest {
     @BeforeMethod
     public void createTestSubjects() {
 
-        a = Reactives.constant('a');
+        a = Reactives.signal('a');
         dispose1 = Reactives.pipe();
         dispose2 = Reactives.pipe();
 

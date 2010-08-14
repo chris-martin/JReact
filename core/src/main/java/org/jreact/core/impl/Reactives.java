@@ -17,7 +17,7 @@ public final class Reactives {
 
     }
 
-    public static <A> Signal<A> constant(
+    public static <A> Signal<A> signal(
             final A value) {
 
         return new SimpleConstant<A>(

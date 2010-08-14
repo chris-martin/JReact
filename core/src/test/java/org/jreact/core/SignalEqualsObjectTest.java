@@ -9,37 +9,44 @@ import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
 /**
- * Tests {@link Signal#equals(Value)}.
+ * Tests {@link org.jreact.core.impl.SimpleConstant#equals(Object)}.
  */
-public class ConstantEqualsValueTest {
+public class SignalEqualsObjectTest {
 
     private Signal<Character> a;
 
     @BeforeMethod
     public void createTestSubjects() {
 
-        a = Reactives.constant('a');
+        a = Reactives.signal('a');
 
     }
 
     @Test
     public void equalsNull() {
 
-        assertFalse(a.equals((Value) null));
+        assertFalse(a.equals((Object) null));
+
+    }
+
+    @Test
+    public void equalsA() {
+
+        assertFalse(a.equals((Object) 'a'));
 
     }
 
     @Test
     public void equalsSelf() {
 
-        assertTrue(a.equals((Value) a));
+        assertTrue(a.equals((Object) a));
 
     }
 
     @Test
     public void equalsConstantA() {
 
-        assertTrue(a.equals((Value) Reactives.constant('a')));
+        assertTrue(a.equals((Object) Reactives.signal('a')));
 
     }
 
@@ -50,7 +57,7 @@ public class ConstantEqualsValueTest {
         final Value<Character> a2 = mock(Value.class);
         when(a2.get()).thenReturn('a');
 
-        assertTrue(a.equals((Value) a2));
+        assertTrue(a.equals((Object) a2));
         verify(a2).get();
 
     }
@@ -62,7 +69,7 @@ public class ConstantEqualsValueTest {
         final Value<Character> b = mock(Value.class);
         when(b.get()).thenReturn('b');
 
-        assertFalse(a.equals((Value) b));
+        assertFalse(a.equals((Object) b));
         verify(b).get();
 
     }

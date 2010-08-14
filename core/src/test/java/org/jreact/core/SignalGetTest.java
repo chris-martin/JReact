@@ -9,21 +9,21 @@ import static org.testng.Assert.assertEquals;
 /**
  * Tests {@link Signal#get()}.
  */
-public class ConstantGetTest {
+public class SignalGetTest {
 
-    private Signal<Character> constant;
+    private Signal<Character> a;
 
     @BeforeMethod
     public void createTestSubjects() {
 
-        constant = Reactives.constant('a');
+        a = Reactives.signal('a');
 
     }
 
     @Test
     public void get() {
 
-        assertEquals(constant.get(), (Character) 'a');
+        assertEquals(a.get(), (Character) 'a');
 
     }
 

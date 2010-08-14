@@ -23,22 +23,22 @@
 
   <test name="Constant basics">
     <classes>
-      <class name="org.jreact.core.ConstantGetTest"/>
-      <class name="org.jreact.core.ConstantEqualsObjectTest"/>
-      <class name="org.jreact.core.ConstantEqualsValueTest"/>
-      <class name="org.jreact.core.ConstantHashCodeTest"/>
+      <class name="org.jreact.core.SignalGetTest"/>
+      <class name="org.jreact.core.SignalEqualsObjectTest"/>
+      <class name="org.jreact.core.SignalEqualsValueTest"/>
+      <class name="org.jreact.core.SignalHashCodeTest"/>
     </classes>
   </test>
 
   <test name="Constant limitations">
     <classes>
-      <class name="org.jreact.core.ConstantLimitTest"/>
+      <class name="org.jreact.core.SignalLimitTest"/>
     </classes>
   </test>
 
   <test name="Constant transformations">
     <classes>
-      <class name="org.jreact.core.ConstantMapTest"/>
+      <class name="org.jreact.core.SignalMapTest"/>
     </classes>
   </test>
 
