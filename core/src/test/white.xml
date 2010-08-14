@@ -2,12 +2,6 @@
 
 <suite name="White box">
 
-  <test name="Pipe basics">
-    <classes>
-      <class name="org.jreact.core.impl.PipePutTest"/>
-    </classes>
-  </test>
-
   <test name="Pipe looping">
     <classes>
       <class name="org.jreact.core.impl.PipeDependentEffectsTest"/>
@@ -17,15 +11,9 @@
 
   <test name="Pipe limitations">
     <classes>
-      <class name="org.jreact.core.impl.PipeLimitTimesTest"/>
-      <class name="org.jreact.core.impl.PipeLimitStreamTest"/>
+      <class name="org.jreact.core.PipeLimitTimesTest"/>
+      <class name="org.jreact.core.PipeLimitStreamTest"/>
       <class name="org.jreact.core.impl.RelayingPipeLimitedTimesTest"/>
-    </classes>
-  </test>
-
-  <test name="Pipe transformations">
-    <classes>
-      <class name="org.jreact.core.impl.PipeMapTest"/>
     </classes>
   </test>
 

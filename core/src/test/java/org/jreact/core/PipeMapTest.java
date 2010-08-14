@@ -1,19 +1,19 @@
-package org.jreact.core.impl;
+package org.jreact.core;
 
 import fj.Effect;
 import fj.F;
-import org.jreact.core.Stream;
+import org.jreact.core.impl.Reactives;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import static org.mockito.Mockito.*;
 
 /**
- * Tests {@link PipeImpl#map(F)}.
+ * Tests {@link Pipe#map(F)}.
  */
 public class PipeMapTest {
 
-    private PipeImpl<String> pipe;
+    private Pipe<String> pipe;
     private Effect<String> effect1;
     private Effect<Integer> effect2;
     private F<String, Integer> function;
@@ -21,7 +21,7 @@ public class PipeMapTest {
     @BeforeMethod
     public void createTestSubjects() {
 
-        pipe = new PipeImpl<String>();
+        pipe = Reactives.pipe();
 
     }
 

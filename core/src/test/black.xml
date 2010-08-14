@@ -2,6 +2,25 @@
 
 <suite name="Black box">
 
+  <test name="Pipe basics">
+    <classes>
+      <class name="org.jreact.core.PipePutTest"/>
+    </classes>
+  </test>
+
+  <test name="Pipe limitations">
+    <classes>
+      <class name="org.jreact.core.PipeLimitTimesTest"/>
+      <class name="org.jreact.core.PipeLimitStreamTest"/>
+    </classes>
+  </test>
+
+  <test name="Pipe transformations">
+    <classes>
+      <class name="org.jreact.core.PipeMapTest"/>
+    </classes>
+  </test>
+
   <test name="Constant basics">
     <classes>
       <class name="org.jreact.core.ConstantGetTest"/>

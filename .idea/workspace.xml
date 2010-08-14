@@ -3,26 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="14840a10-ba40-47ad-ad3a-a73704cfeaab" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/pom.xml" afterPath="$PROJECT_DIR$/core/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/VariableChangesTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableChangesTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantMapTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantMapTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/test/white.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/VariableLoopTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableLoopTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantHashCodeTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantHashCodeTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantEqualsObjectTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantEqualsObjectTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/test/testng.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantEqualsValueTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantEqualsValueTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/jreact-core.iml" afterPath="$PROJECT_DIR$/core/jreact-core.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/VariableHashCodeTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableHashCodeTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/VariableMapTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableMapTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/VariableGetAndPutTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableGetAndPutTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/test/black.xml" afterPath="$PROJECT_DIR$/core/src/test/black.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/test/white.xml" afterPath="$PROJECT_DIR$/core/src/test/white.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/VariableEqualsObjectTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableEqualsObjectTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantLimitTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantLimitTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/VariableEqualsValueTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableEqualsValueTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/test/black.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/ConstantGetTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantGetTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/PipeDependentSinksTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/PipeDependentSinksTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/PipeMapTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/PipeMapTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/PipeLimitStreamTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/PipeLimitStreamTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/PipePutTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/PipePutTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/PipeLimitTimesTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/PipeLimitTimesTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/VariableLimitTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableLimitTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/jreact-core.iml" afterPath="$PROJECT_DIR$/core/jreact-core.iml" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="reactive.iws" />
@@ -87,91 +77,37 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="white.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/test/white.xml">
+      <file leaf-file-name="PipeLimitTimesTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/PipeLimitTimesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="24" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+            <state line="11" column="20" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConstantMapTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantMapTest.java">
+      <file leaf-file-name="PipeMapTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/PipeMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="30" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
+            <state line="11" column="20" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConstantHashCodeTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantHashCodeTest.java">
+      <file leaf-file-name="PipePutTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/PipePutTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="35" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+            <state line="9" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.23356402">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConstantGetTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantGetTest.java">
+      <file leaf-file-name="PipeDependentSinksTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/PipeDependentSinksTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="17" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConstantEqualsValueTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantEqualsValueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="54" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConstantEqualsObjectTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantEqualsObjectTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="44" selection-start="227" selection-end="227" vertical-scroll-proportion="0.19444445">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VariableChangesTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableChangesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConstantLimitTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantLimitTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="38" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="black.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/test/black.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VariableMapTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableMapTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+            <state line="4" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -191,22 +127,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/core/pom.xml" />
-        <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableEqualsObjectTest.java" />
-        <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableGetAndPutTest.java" />
-        <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableChangesTest.java" />
         <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableLimitTest.java" />
         <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableLoopTest.java" />
         <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableMapTest.java" />
-        <option value="$PROJECT_DIR$/core/src/test/white.xml" />
-        <option value="$PROJECT_DIR$/core/src/test/black.xml" />
         <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantLimitTest.java" />
         <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantMapTest.java" />
         <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantHashCodeTest.java" />
         <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantGetTest.java" />
         <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantEqualsValueTest.java" />
         <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantEqualsObjectTest.java" />
+        <option value="$PROJECT_DIR$/core/src/test/black.xml" />
+        <option value="$PROJECT_DIR$/core/src/test/white.xml" />
+        <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/PipeLimitStreamTest.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/PipeDependentSinksTest.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/PipeLimitTimesTest.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/PipeMapTest.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/org/jreact/core/PipePutTest.java" />
       </list>
     </option>
   </component>
@@ -749,69 +685,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="32" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="25" selection-start="958" selection-end="958" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableEqualsObjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableGetAndPutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableLimitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableLoopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="32" selection-start="470" selection-end="478" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/black.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/white.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/VariableChangesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="13" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
@@ -856,7 +729,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/ConstantEqualsObjectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="44" selection-start="227" selection-end="227" vertical-scroll-proportion="0.19444445">
+        <state line="7" column="44" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/PipeDependentEffectsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/white.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/RelayingPipeLimitedTimesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/black.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="14" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/PipeLimitStreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/impl/PipeDependentSinksTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/PipeLimitTimesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/PipeMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/org/jreact/core/PipePutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.23356402">
           <folding />
         </state>
       </provider>

@@ -1,7 +1,7 @@
-package org.jreact.core.impl;
+package org.jreact.core;
 
 import fj.Effect;
-import org.jreact.core.Value;
+import org.jreact.core.impl.Reactives;
 import org.mockito.InOrder;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -9,17 +9,17 @@ import org.testng.annotations.Test;
 import static org.mockito.Mockito.*;
 
 /**
- * Tests {@link PipeImpl#put(Value)}.
+ * Tests {@link Pipe#put(Object)}.
  */
 public class PipePutTest {
 
-    private PipeImpl<Character> pipe;
+    private Pipe<Character> pipe;
     private Effect<Character> effect;
 
     @BeforeMethod
     public void createTestSubjects() {
 
-        pipe = new PipeImpl<Character>();
+        pipe = Reactives.pipe();
 
     }
 

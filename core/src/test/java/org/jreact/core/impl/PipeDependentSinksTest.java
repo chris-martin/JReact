@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
+import static org.testng.Assert.assertEquals;
 
 /**
  * Tests {@link PipeImpl#dependentValueSinks}.
@@ -46,6 +47,47 @@ public class PipeDependentSinksTest {
         pipe.put(new FinalValue<Character>('a'));
 
         verify(sink).put(new FinalValue<Character>('a'));
+
+    }
+
+    @Test
+    public void limit0TestDependents() {
+
+        pipe.limit(0);
+
+        assertEquals(pipe.dependentValueSinks.size(), 0);
+
+    }
+
+    @Test
+    public void limit1TestDependents() {
+
+        pipe.limit(1);
+
+        assertEquals(pipe.dependentValueSinks.size(), 1);
+
+        pipe.put('a');
+
+        assertEquals(pipe.dependentValueSinks.size(), 0);
+
+    }
+
+    @Test
+    public void limit1TestThreeDependents() {
+
+        pipe.limit(1);
+        pipe.limit(1);
+        pipe.limit(2);
+
+        assertEquals(pipe.dependentValueSinks.size(), 3);
+
+        pipe.put('a');
+
+        assertEquals(pipe.dependentValueSinks.size(), 1);
+
+        pipe.put('a');
+
+        assertEquals(pipe.dependentValueSinks.size(), 0);
 
     }
 
