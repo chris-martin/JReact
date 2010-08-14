@@ -73,7 +73,7 @@ abstract class SignalImpl<A>
 
     @Override
     public <B> Signal<B> map(
-            final F<? super A, B> function) {
+            final F<? super A, ? extends B> function) {
 
         final MappedSignal<A, B> mapped = new MappedSignal<A, B>(
             this,

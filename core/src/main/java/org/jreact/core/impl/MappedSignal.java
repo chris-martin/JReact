@@ -8,14 +8,14 @@ class MappedSignal<A, B>
         implements ValueSink<A> {
 
     private final SignalImpl<? extends A> a;
-    private final F<? super A, B> function;
+    private final F<? super A, ? extends B> function;
     private final PipeImpl<B> changes;
 
     private B b;
 
     MappedSignal(
             final SignalImpl<? extends A> a,
-            final F<? super A, B> function) {
+            final F<? super A, ? extends B> function) {
 
         this.a = a;
         this.function = function;

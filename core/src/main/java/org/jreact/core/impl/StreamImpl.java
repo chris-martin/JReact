@@ -163,7 +163,7 @@ class StreamImpl<A>
 
     @Override
     public <B> Stream<B> map(
-            final F<? super A, B> function) {
+            final F<? super A, ? extends B> function) {
 
         if (disposed()) {
 
