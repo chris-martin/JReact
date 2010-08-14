@@ -7,7 +7,6 @@ class RelayingSignal<A>
 
     final Value<? extends A> value;
     final StreamImpl<A> changes;
-    boolean disposed;
 
     public RelayingSignal(
             final Value<? extends A> value,
@@ -29,19 +28,6 @@ class RelayingSignal<A>
     public StreamImpl<A> changes() {
 
         return changes;
-
-    }
-
-    @Override
-    public boolean disposed() {
-
-        return disposed;
-
-    }
-
-    void dispose() {
-
-        disposed = true;
 
     }
 

@@ -6,9 +6,32 @@ import org.jreact.core.Reactive;
 import org.jreact.core.Signal;
 import org.jreact.core.Stream;
 
+import java.util.ArrayList;
+import java.util.List;
+
 abstract class ConstantImpl<A>
         extends AbstractValue<A>
-        implements Signal<A> {
+        implements Signal<A>, Disposable {
+
+    List<ConstantImpl> dependents = new ArrayList<ConstantImpl>(); // TODO instantiate lazily
+
+    void dispose() {
+
+        if (!disposed()) {
+            for (final ConstantImpl d : dependents) {
+                d.dispose();
+            }
+            dependents = null;
+        }
+
+    }
+
+    @Override
+    public boolean disposed() {
+
+        return dependents == null;
+
+    }
 
     @Override
     public Stream<? extends A> changes() {
@@ -21,7 +44,9 @@ abstract class ConstantImpl<A>
     public void loop(
             final Effect<? super A> effect) {
 
-        effect.e(get());
+        if (!disposed()) {
+            effect.e(get());
+        }
 
     }
 
@@ -29,7 +54,13 @@ abstract class ConstantImpl<A>
     public <B> Signal<B> map(
             final F<? super A, B> function) {
 
-        return new MappedConstant<A, B>(this, function);
+        if (disposed()) {
+            throw new IllegalStateException();
+        } else {
+            final MappedConstant<A, B> mapped = new MappedConstant<A, B>(this, function);
+            dependents.add(mapped);
+            return mapped;
+        }
 
     }
 
@@ -37,7 +68,26 @@ abstract class ConstantImpl<A>
     public Reactive<A> limit(
             final Stream<?> dispose) {
 
-        return null;
+        if (disposed()) {
+
+            return VacuousStream.instance();
+
+        } else {
+
+            final RelayingConstant<A> limited = new RelayingConstant<A>(this);
+
+            dependents.add(limited);
+
+            dispose.limit(1).loop(new Effect<Object>() {
+                @Override
+                public void e(Object o) {
+                    limited.dispose();
+                }
+            });
+
+            return limited;
+
+        }
 
     }
 

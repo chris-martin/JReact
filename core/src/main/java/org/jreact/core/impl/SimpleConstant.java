@@ -19,4 +19,18 @@ class SimpleConstant<A>
 
     }
 
+    @Override
+    void dispose() {
+
+        throw new UnsupportedOperationException();
+
+    }
+
+    @Override
+    public boolean disposed() {
+
+        return false;
+
+    }
+
 }

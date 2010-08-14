@@ -2,13 +2,13 @@ package org.jreact.core.impl;
 
 import org.jreact.core.Value;
 
-class ValueConstant<A>
+class RelayingConstant<A>
         extends ConstantImpl<A> {
 
     Value<A> value;
     A a;
 
-    ValueConstant(
+    RelayingConstant(
             final Value<A> value) {
 
         this.value = value;

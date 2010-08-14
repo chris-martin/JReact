@@ -15,7 +15,7 @@ import static org.testng.Assert.assertTrue;
  */
 public class ConstantEqualsObjectTest {
 
-    private ConstantImpl<Character> a;
+    private SimpleConstant<Character> a;
 
     @BeforeMethod
     public void createTestSubjects() {

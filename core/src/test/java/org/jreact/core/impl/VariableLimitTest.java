@@ -14,16 +14,19 @@ import static org.mockito.Mockito.verify;
  */
 public class VariableLimitTest {
 
-    private VariableImpl<Character> var;
-    private PipeImpl<Object> dispose;
+    private VariableImpl<Character> a;
+    private PipeImpl<Object> dispose1;
+    private PipeImpl<Object> dispose2;
     private Effect<Character> effect1;
     private Effect<Character> effect2;
+    private Effect<Character> effect3;
 
     @BeforeMethod
     public void createTestSubjects() {
 
-        var = new VariableImpl<Character>('a');
-        dispose = new PipeImpl<Object>();
+        a = new VariableImpl<Character>('a');
+        dispose1 = new PipeImpl<Object>();
+        dispose2 = new PipeImpl<Object>();
 
     }
 
@@ -33,19 +36,20 @@ public class VariableLimitTest {
 
         effect1 = (Effect<Character>) Mockito.mock(Effect.class);
         effect2 = (Effect<Character>) Mockito.mock(Effect.class);
+        effect3 = (Effect<Character>) Mockito.mock(Effect.class);
 
     }
 
     @Test
     public void disposeLoop() {
 
-        final Reactive<Character> limited = var.limit(dispose);
+        final Reactive<Character> limited = a.limit(dispose1);
 
         // dispose
-        dispose.put(true);
+        dispose1.put(true);
 
         // loop
-        var.loop(effect1);
+        a.loop(effect1);
         limited.loop(effect2);
 
         verify(effect1).e('a');
@@ -56,17 +60,17 @@ public class VariableLimitTest {
     @Test
     public void disposeLoopPut() {
 
-        final Reactive<Character> limited = var.limit(dispose);
+        final Reactive<Character> limited = a.limit(dispose1);
 
         // dispose
-        dispose.put(true);
+        dispose1.put(true);
 
         // loop
-        var.loop(effect1);
+        a.loop(effect1);
         limited.loop(effect2);
 
         // put
-        var.put('b');
+        a.put('b');
 
         verify(effect1).e('a');
         verify(effect1).e('b');
@@ -78,20 +82,20 @@ public class VariableLimitTest {
     @Test
     public void disposePutLoopPut() {
 
-        final Reactive<Character> limited = var.limit(dispose);
+        final Reactive<Character> limited = a.limit(dispose1);
 
         // dispose
-        dispose.put(true);
+        dispose1.put(true);
 
         // put
-        var.put('b');
+        a.put('b');
 
         // loop
-        var.loop(effect1);
+        a.loop(effect1);
         limited.loop(effect2);
 
         // put
-        var.put('c');
+        a.put('c');
 
         verify(effect1, never()).e('a');
         verify(effect1).e('b');
@@ -106,23 +110,101 @@ public class VariableLimitTest {
     @Test
     public void loopDisposePut() {
 
-        final Reactive<Character> limited = var.limit(dispose);
+        final Reactive<Character> limited = a.limit(dispose1);
 
         // loop
-        var.loop(effect1);
+        a.loop(effect1);
         limited.loop(effect2);
 
         // dispose
-        dispose.put(true);
+        dispose1.put(true);
 
         // put
-        var.put('b');
+        a.put('b');
 
         verify(effect1).e('a');
         verify(effect1).e('b');
 
         verify(effect2).e('a');
         verify(effect2, never()).e('b');
+
+    }
+
+    @Test
+    public void limitLimitLoop() {
+
+        final Reactive<Character> b = a.limit(dispose1);
+        final Reactive<Character> c = b.limit(dispose1);
+        a.loop(effect1);
+        b.loop(effect2);
+        c.loop(effect3);
+
+        verify(effect1).e('a');
+        verify(effect2).e('a');
+        verify(effect3).e('a');
+
+    }
+
+    @Test
+    public void limitLimitDisposeLoop() {
+
+        final Reactive<Character> b = a.limit(dispose1);
+        final Reactive<Character> c = b.limit(dispose1);
+        dispose1.put(true);
+        a.loop(effect1);
+        b.loop(effect2);
+        c.loop(effect3);
+
+        verify(effect1).e('a');
+        verify(effect2, never()).e('a');
+        verify(effect3, never()).e('a');
+
+    }
+
+    @Test
+    public void limitLimit2Loop() {
+
+        final Reactive<Character> b = a.limit(dispose1);
+        final Reactive<Character> c = b.limit(dispose2);
+        a.loop(effect1);
+        b.loop(effect2);
+        c.loop(effect3);
+
+        verify(effect1).e('a');
+        verify(effect2).e('a');
+        verify(effect3).e('a');
+
+    }
+
+    @Test
+    public void limitLimit2Dispose1Loop() {
+
+        final Reactive<Character> b = a.limit(dispose1);
+        final Reactive<Character> c = b.limit(dispose2);
+        dispose1.put(true);
+        a.loop(effect1);
+        b.loop(effect2);
+        c.loop(effect3);
+
+        verify(effect1).e('a');
+        verify(effect2, never()).e('a');
+        verify(effect3, never()).e('a');
+
+    }
+
+    @Test
+    public void limitLimit2Dispose2Loop() {
+
+        final Reactive<Character> b = a.limit(dispose1);
+        final Reactive<Character> c = b.limit(dispose2);
+        dispose2.put(true);
+        a.loop(effect1);
+        b.loop(effect2);
+        c.loop(effect3);
+
+        verify(effect1).e('a');
+        verify(effect2).e('a');
+        verify(effect3, never()).e('a');
 
     }
 

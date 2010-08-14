@@ -41,8 +41,8 @@ class StreamImpl<A>
         assert value != null;
 
         if (!disposed()) {
-            propagateToEffects(value);
             propagateToPipes(new SimpleConstant<A>(value));
+            propagateToEffects(value);
         }
 
     }
@@ -55,8 +55,8 @@ class StreamImpl<A>
         if (!disposed()) {
             final A v = value.get();
             assert v != null;
-            propagateToEffects(v);
             propagateToPipes(value);
+            propagateToEffects(v);
         }
 
     }
@@ -84,9 +84,10 @@ class StreamImpl<A>
     void removeValueSink(
             final ValueSink<A> sink) {
 
-        final boolean removed = dependentValueSinks.remove(sink);
-
-        assert removed;
+        if (dependentValueSinks != null) {
+            final boolean removed = dependentValueSinks.remove(sink);
+            assert removed;
+        }
 
     }
 

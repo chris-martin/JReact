@@ -54,11 +54,4 @@ class MappedSignal<A, B>
 
     }
 
-    @Override
-    boolean disposed() {
-
-        return a.disposed();
-
-    }
-
 }

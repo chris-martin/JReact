@@ -57,4 +57,11 @@ class VariableImpl<A>
 
     }
 
+    @Override
+    void dispose() {
+
+        throw new UnsupportedOperationException();
+
+    }
+
 }

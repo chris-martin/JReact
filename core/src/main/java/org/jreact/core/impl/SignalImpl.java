@@ -4,8 +4,31 @@ import fj.Effect;
 import fj.F;
 import org.jreact.core.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 abstract class SignalImpl<A>
-        implements Signal<A>, Varying<A> {
+        implements Signal<A>, Varying<A>, Disposable {
+
+    List<SignalImpl> dependents = new ArrayList<SignalImpl>(); // TODO instantiate lazily
+
+    void dispose() {
+
+        if (!disposed()) {
+            for (final SignalImpl d : dependents) {
+                d.dispose();
+            }
+            dependents = null;
+        }
+
+    }
+
+    @Override
+    public boolean disposed() {
+
+        return dependents == null;
+
+    }
 
     @Override
     public abstract StreamImpl<A> changes();
@@ -36,6 +59,7 @@ abstract class SignalImpl<A>
                 this,
                 changes().limit(dispose)
             );
+            dependents.add(limited);
             dispose.limit(1).loop(new Effect<Object>() {
                 @Override
                 public void e(final Object o) {
@@ -56,19 +80,13 @@ abstract class SignalImpl<A>
             function
         );
 
+        dependents.add(mapped);
+
         changes().dependentValueSinks.add(mapped);
 
         return mapped;
 
     }
-
-    /**
-     * If a signal has been "disposed", then it will never execute any effects.
-     *
-     * @return
-     *  True if this signal has been disposed.
-     */
-    abstract boolean disposed();
 
     @Override
     public boolean equals(
