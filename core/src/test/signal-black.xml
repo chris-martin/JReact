@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Signal: Blackbox">
+
+  <test name="Signal basics">
+    <classes>
+      <class name="org.jreact.core.SignalGetTest"/>
+      <class name="org.jreact.core.SignalEqualsObjectTest"/>
+      <class name="org.jreact.core.SignalEqualsValueTest"/>
+      <class name="org.jreact.core.SignalHashCodeTest"/>
+    </classes>
+  </test>
+
+  <test name="Signal limitations">
+    <classes>
+      <class name="org.jreact.core.SignalLimitTest"/>
+    </classes>
+  </test>
+
+  <test name="Signal transformations">
+    <classes>
+      <class name="org.jreact.core.SignalMapTest"/>
+    </classes>
+  </test>
+
+</suite>
