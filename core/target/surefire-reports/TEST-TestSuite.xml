@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="3" time="3.248" errors="0" skipped="0" tests="77" name="TestSuite">
+<testsuite failures="0" time="2.001" errors="0" skipped="0" tests="77" name="TestSuite">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-6-sun-1.6.0.20/jre/lib/amd64"/>
@@ -19,7 +19,7 @@
     <property name="basedir" value="/home/chris/jreact/core"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-6-sun-1.6.0.20/jre/lib/endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="/tmp/surefirebooter8865483663298965790.jar"/>
+    <property name="surefire.real.class.path" value="/tmp/surefirebooter2309695367743207349.jar"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="
 "/>
@@ -57,125 +57,81 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.018" classname="org.jreact.core.impl.ConstantEqualsObjectTest" name="equalsA"/>
-  <testcase time="0" classname="org.jreact.core.impl.ConstantEqualsObjectTest" name="equalsConstantA"/>
-  <testcase time="0.271" classname="org.jreact.core.impl.ConstantEqualsObjectTest" name="equalsMockValueA"/>
-  <testcase time="0.002" classname="org.jreact.core.impl.ConstantEqualsObjectTest" name="equalsMockValueB"/>
-  <testcase time="0" classname="org.jreact.core.impl.ConstantEqualsObjectTest" name="equalsNull"/>
-  <testcase time="0" classname="org.jreact.core.impl.ConstantEqualsObjectTest" name="equalsSelf"/>
-  <testcase time="0" classname="org.jreact.core.impl.ConstantEqualsValueTest" name="equalsConstantA"/>
-  <testcase time="0.002" classname="org.jreact.core.impl.ConstantEqualsValueTest" name="equalsMockValueA"/>
-  <testcase time="0.001" classname="org.jreact.core.impl.ConstantEqualsValueTest" name="equalsMockValueB"/>
-  <testcase time="0" classname="org.jreact.core.impl.ConstantEqualsValueTest" name="equalsNull"/>
-  <testcase time="0" classname="org.jreact.core.impl.ConstantEqualsValueTest" name="equalsSelf"/>
-  <testcase time="0.002" classname="org.jreact.core.impl.ConstantGetTest" name="get"/>
-  <testcase time="0.012" classname="org.jreact.core.impl.ConstantHashCodeTest" name="character"/>
-  <testcase time="0.011" classname="org.jreact.core.impl.ConstantHashCodeTest" name="object"/>
-  <testcase time="0.02" classname="org.jreact.core.impl.ConstantLimitTest" name="limit"/>
-  <testcase time="0.022" classname="org.jreact.core.impl.ConstantLimitTest" name="limitDisposeLoop"/>
-  <testcase time="0.02" classname="org.jreact.core.impl.ConstantLimitTest" name="limitLimit2Dispose1Loop">
-    <failure message="
-effect.e(&apos;a&apos;);
-Never wanted here:
--&gt; at org.jreact.core.impl.ConstantLimitTest.limitLimit2Dispose1Loop(ConstantLimitTest.java:134)
-But invoked here:
--&gt; at org.jreact.core.impl.ConstantImpl.loop(ConstantImpl.java:25)
-" type="org.mockito.exceptions.verification.NeverWantedButInvoked">org.mockito.exceptions.verification.NeverWantedButInvoked: 
-effect.e(&apos;a&apos;);
-Never wanted here:
--&gt; at org.jreact.core.impl.ConstantLimitTest.limitLimit2Dispose1Loop(ConstantLimitTest.java:134)
-But invoked here:
--&gt; at org.jreact.core.impl.ConstantImpl.loop(ConstantImpl.java:25)
-	at org.jreact.core.impl.ConstantLimitTest.limitLimit2Dispose1Loop(ConstantLimitTest.java:134)
-</failure>
-  </testcase>
-  <testcase time="0.002" classname="org.jreact.core.impl.ConstantLimitTest" name="limitLimit2Dispose2Loop"/>
-  <testcase time="0.001" classname="org.jreact.core.impl.ConstantLimitTest" name="limitLimit2Loop"/>
-  <testcase time="0.002" classname="org.jreact.core.impl.ConstantLimitTest" name="limitLimitDisposeLoop"/>
-  <testcase time="0.002" classname="org.jreact.core.impl.ConstantLimitTest" name="limitLimitLoop"/>
-  <testcase time="0.001" classname="org.jreact.core.impl.ConstantLimitTest" name="limitLoop"/>
-  <testcase time="0.002" classname="org.jreact.core.impl.ConstantMapTest" name="beLazy"/>
-  <testcase time="0.001" classname="org.jreact.core.impl.ConstantMapTest" name="callExactlyOnce"/>
-  <testcase time="0.001" classname="org.jreact.core.impl.ConstantMapTest" name="callOnce"/>
-  <testcase time="0" classname="org.jreact.core.impl.ConstantMapTest" name="get"/>
-  <testcase time="0.001" classname="org.jreact.core.impl.VariableGetAndPutTest" name="get"/>
-  <testcase time="0.001" classname="org.jreact.core.impl.VariableGetAndPutTest" name="setDifferentValue"/>
-  <testcase time="0.001" classname="org.jreact.core.impl.VariableGetAndPutTest" name="setMultiple"/>
-  <testcase time="0" classname="org.jreact.core.impl.VariableGetAndPutTest" name="setSameValue"/>
-  <testcase time="0" classname="org.jreact.core.impl.VariableGetAndPutTest" name="setThenGet"/>
-  <testcase time="0.001" classname="org.jreact.core.impl.VariableChangesTest" name="loop"/>
-  <testcase time="0.001" classname="org.jreact.core.impl.VariableChangesTest" name="loopThenSet"/>
-  <testcase time="0" classname="org.jreact.core.impl.VariableChangesTest" name="loopThenSetSame"/>
-  <testcase time="0.001" classname="org.jreact.core.impl.VariableChangesTest" name="setThenLoop1"/>
-  <testcase time="0.002" classname="org.jreact.core.impl.VariableChangesTest" name="setThenLoop2"/>
-  <testcase time="0.002" classname="org.jreact.core.impl.VariableLoopTest" name="loop"/>
-  <testcase time="0.007" classname="org.jreact.core.impl.VariableLoopTest" name="loopThenSet"/>
-  <testcase time="0.002" classname="org.jreact.core.impl.VariableLoopTest" name="loopThenSetSame"/>
-  <testcase time="0" classname="org.jreact.core.impl.VariableLoopTest" name="setThenLoop"/>
-  <testcase time="0.01" classname="org.jreact.core.impl.VariableLimitTest" name="disposeLoop"/>
-  <testcase time="0.002" classname="org.jreact.core.impl.VariableLimitTest" name="disposeLoopPut"/>
-  <testcase time="0.003" classname="org.jreact.core.impl.VariableLimitTest" name="disposePutLoopPut"/>
-  <testcase time="0.002" classname="org.jreact.core.impl.VariableLimitTest" name="limitLimit2Dispose1Loop">
-    <failure message="
-effect.e(&apos;a&apos;);
-Never wanted here:
--&gt; at org.jreact.core.impl.VariableLimitTest.limitLimit2Dispose1Loop(VariableLimitTest.java:191)
-But invoked here:
--&gt; at org.jreact.core.impl.SignalImpl.loop(SignalImpl.java:20)
-" type="org.mockito.exceptions.verification.NeverWantedButInvoked">org.mockito.exceptions.verification.NeverWantedButInvoked: 
-effect.e(&apos;a&apos;);
-Never wanted here:
--&gt; at org.jreact.core.impl.VariableLimitTest.limitLimit2Dispose1Loop(VariableLimitTest.java:191)
-But invoked here:
--&gt; at org.jreact.core.impl.SignalImpl.loop(SignalImpl.java:20)
-	at org.jreact.core.impl.VariableLimitTest.limitLimit2Dispose1Loop(VariableLimitTest.java:191)
-</failure>
-  </testcase>
-  <testcase time="0.002" classname="org.jreact.core.impl.VariableLimitTest" name="limitLimit2Dispose2Loop"/>
-  <testcase time="0.003" classname="org.jreact.core.impl.VariableLimitTest" name="limitLimit2Loop"/>
-  <testcase time="0.001" classname="org.jreact.core.impl.VariableLimitTest" name="limitLimitDisposeLoop">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at org.jreact.core.impl.StreamImpl.removeValueSink(StreamImpl.java:87)
-	at org.jreact.core.impl.RelayingPipe.dispose(RelayingPipe.java:20)
-	at org.jreact.core.impl.StreamImpl$1.e(StreamImpl.java:137)
-	at org.jreact.core.impl.StreamImpl.propagateToEffects(StreamImpl.java:69)
-	at org.jreact.core.impl.StreamImpl.propagate(StreamImpl.java:58)
-	at org.jreact.core.impl.PipeImpl.put(PipeImpl.java:22)
-	at org.jreact.core.impl.RelayingPipeLimitedTimes.put(RelayingPipeLimitedTimes.java:36)
-	at org.jreact.core.impl.StreamImpl.propagateToPipes(StreamImpl.java:79)
-	at org.jreact.core.impl.StreamImpl.propagate(StreamImpl.java:45)
-	at org.jreact.core.impl.PipeImpl.put(PipeImpl.java:14)
-	at org.jreact.core.impl.VariableLimitTest.limitLimitDisposeLoop(VariableLimitTest.java:153)
-</failure>
-  </testcase>
-  <testcase time="0.002" classname="org.jreact.core.impl.VariableLimitTest" name="limitLimitLoop"/>
-  <testcase time="0.003" classname="org.jreact.core.impl.VariableLimitTest" name="loopDisposePut"/>
-  <testcase time="0.008" classname="org.jreact.core.impl.VariableMapTest" name="putAbc"/>
-  <testcase time="0.002" classname="org.jreact.core.impl.VariableMapTest" name="putDef"/>
-  <testcase time="0.004" classname="org.jreact.core.impl.VariableMapTest" name="putDefXyzzy"/>
-  <testcase time="0.005" classname="org.jreact.core.impl.VariableMapTest" name="putNothing"/>
-  <testcase time="0.007" classname="org.jreact.core.impl.PipePutTest" name="loopThenPutA"/>
-  <testcase time="0.001" classname="org.jreact.core.impl.PipePutTest" name="loopThenPutAAA"/>
-  <testcase time="0.003" classname="org.jreact.core.impl.PipePutTest" name="loopThenPutABAA"/>
-  <testcase time="0.009" classname="org.jreact.core.impl.PipePutTest" name="put"/>
-  <testcase time="0.01" classname="org.jreact.core.impl.PipePutTest" name="putThenLoop"/>
-  <testcase time="0.001" classname="org.jreact.core.impl.PipeDependentEffectsTest" name="dependentEffect1"/>
-  <testcase time="0.059" classname="org.jreact.core.impl.PipeDependentEffectsTest" name="dependentEffect2"/>
+  <testcase time="0.004" classname="org.jreact.core.ConstantEqualsObjectTest" name="equalsA"/>
+  <testcase time="0" classname="org.jreact.core.ConstantEqualsObjectTest" name="equalsConstantA"/>
+  <testcase time="0.198" classname="org.jreact.core.ConstantEqualsObjectTest" name="equalsMockValueA"/>
+  <testcase time="0.001" classname="org.jreact.core.ConstantEqualsObjectTest" name="equalsMockValueB"/>
+  <testcase time="0" classname="org.jreact.core.ConstantEqualsObjectTest" name="equalsNull"/>
+  <testcase time="0" classname="org.jreact.core.ConstantEqualsObjectTest" name="equalsSelf"/>
+  <testcase time="0" classname="org.jreact.core.ConstantEqualsValueTest" name="equalsConstantA"/>
+  <testcase time="0.001" classname="org.jreact.core.ConstantEqualsValueTest" name="equalsMockValueA"/>
+  <testcase time="0.001" classname="org.jreact.core.ConstantEqualsValueTest" name="equalsMockValueB"/>
+  <testcase time="0" classname="org.jreact.core.ConstantEqualsValueTest" name="equalsNull"/>
+  <testcase time="0" classname="org.jreact.core.ConstantEqualsValueTest" name="equalsSelf"/>
+  <testcase time="0" classname="org.jreact.core.ConstantGetTest" name="get"/>
+  <testcase time="0" classname="org.jreact.core.ConstantHashCodeTest" name="character"/>
+  <testcase time="0" classname="org.jreact.core.ConstantHashCodeTest" name="object"/>
+  <testcase time="0.001" classname="org.jreact.core.ConstantLimitTest" name="limit"/>
+  <testcase time="0.005" classname="org.jreact.core.ConstantLimitTest" name="limitDisposeLoop"/>
+  <testcase time="0.002" classname="org.jreact.core.ConstantLimitTest" name="limitLimit2Dispose1Loop"/>
+  <testcase time="0.001" classname="org.jreact.core.ConstantLimitTest" name="limitLimit2Dispose2Loop"/>
+  <testcase time="0.002" classname="org.jreact.core.ConstantLimitTest" name="limitLimit2Loop"/>
+  <testcase time="0.001" classname="org.jreact.core.ConstantLimitTest" name="limitLimitDisposeLoop"/>
+  <testcase time="0.002" classname="org.jreact.core.ConstantLimitTest" name="limitLimitLoop"/>
+  <testcase time="0.001" classname="org.jreact.core.ConstantLimitTest" name="limitLoop"/>
+  <testcase time="0.001" classname="org.jreact.core.ConstantMapTest" name="beLazy"/>
+  <testcase time="0.001" classname="org.jreact.core.ConstantMapTest" name="callExactlyOnce"/>
+  <testcase time="0.001" classname="org.jreact.core.ConstantMapTest" name="callOnce"/>
+  <testcase time="0" classname="org.jreact.core.ConstantMapTest" name="get"/>
+  <testcase time="0" classname="org.jreact.core.VariableGetAndPutTest" name="get"/>
+  <testcase time="0" classname="org.jreact.core.VariableGetAndPutTest" name="setDifferentValue"/>
+  <testcase time="0" classname="org.jreact.core.VariableGetAndPutTest" name="setMultiple"/>
+  <testcase time="0" classname="org.jreact.core.VariableGetAndPutTest" name="setSameValue"/>
+  <testcase time="0" classname="org.jreact.core.VariableGetAndPutTest" name="setThenGet"/>
+  <testcase time="0.001" classname="org.jreact.core.VariableChangesTest" name="loop"/>
+  <testcase time="0.002" classname="org.jreact.core.VariableChangesTest" name="loopThenSet"/>
+  <testcase time="0" classname="org.jreact.core.VariableChangesTest" name="loopThenSetSame"/>
+  <testcase time="0.001" classname="org.jreact.core.VariableChangesTest" name="setThenLoop1"/>
+  <testcase time="0.001" classname="org.jreact.core.VariableChangesTest" name="setThenLoop2"/>
+  <testcase time="0.001" classname="org.jreact.core.VariableLoopTest" name="loop"/>
+  <testcase time="0.007" classname="org.jreact.core.VariableLoopTest" name="loopThenSet"/>
+  <testcase time="0.001" classname="org.jreact.core.VariableLoopTest" name="loopThenSetSame"/>
+  <testcase time="0" classname="org.jreact.core.VariableLoopTest" name="setThenLoop"/>
+  <testcase time="0.002" classname="org.jreact.core.VariableLimitTest" name="disposeLoop"/>
+  <testcase time="0.002" classname="org.jreact.core.VariableLimitTest" name="disposeLoopPut"/>
+  <testcase time="0.003" classname="org.jreact.core.VariableLimitTest" name="disposePutLoopPut"/>
+  <testcase time="0.001" classname="org.jreact.core.VariableLimitTest" name="limitLimit2Dispose1Loop"/>
+  <testcase time="0.003" classname="org.jreact.core.VariableLimitTest" name="limitLimit2Dispose2Loop"/>
+  <testcase time="0.004" classname="org.jreact.core.VariableLimitTest" name="limitLimit2Loop"/>
+  <testcase time="0.001" classname="org.jreact.core.VariableLimitTest" name="limitLimitDisposeLoop"/>
+  <testcase time="0.002" classname="org.jreact.core.VariableLimitTest" name="limitLimitLoop"/>
+  <testcase time="0.002" classname="org.jreact.core.VariableLimitTest" name="loopDisposePut"/>
+  <testcase time="0.002" classname="org.jreact.core.VariableMapTest" name="putAbc"/>
+  <testcase time="0.002" classname="org.jreact.core.VariableMapTest" name="putDef"/>
+  <testcase time="0.003" classname="org.jreact.core.VariableMapTest" name="putDefXyzzy"/>
+  <testcase time="0.001" classname="org.jreact.core.VariableMapTest" name="putNothing"/>
+  <testcase time="0.001" classname="org.jreact.core.impl.PipePutTest" name="loopThenPutA"/>
+  <testcase time="0.002" classname="org.jreact.core.impl.PipePutTest" name="loopThenPutAAA"/>
+  <testcase time="0.002" classname="org.jreact.core.impl.PipePutTest" name="loopThenPutABAA"/>
+  <testcase time="0" classname="org.jreact.core.impl.PipePutTest" name="put"/>
+  <testcase time="0.002" classname="org.jreact.core.impl.PipePutTest" name="putThenLoop"/>
+  <testcase time="0.002" classname="org.jreact.core.impl.PipeDependentEffectsTest" name="dependentEffect1"/>
+  <testcase time="0.002" classname="org.jreact.core.impl.PipeDependentEffectsTest" name="dependentEffect2"/>
   <testcase time="0.002" classname="org.jreact.core.impl.PipeDependentSinksTest" name="dependentValueSink1"/>
   <testcase time="0.001" classname="org.jreact.core.impl.PipeDependentSinksTest" name="dependentValueSink2"/>
   <testcase time="0.001" classname="org.jreact.core.impl.PipeLimitStreamTest" name="disposePut"/>
-  <testcase time="0.013" classname="org.jreact.core.impl.PipeLimitStreamTest" name="putDisposePut"/>
-  <testcase time="0.002" classname="org.jreact.core.impl.PipeLimitTimesTest" name="limit0TestDependents"/>
-  <testcase time="0.012" classname="org.jreact.core.impl.PipeLimitTimesTest" name="limit0TestLooping"/>
+  <testcase time="0.001" classname="org.jreact.core.impl.PipeLimitStreamTest" name="putDisposePut"/>
+  <testcase time="0.001" classname="org.jreact.core.impl.PipeLimitTimesTest" name="limit0TestDependents"/>
+  <testcase time="0.001" classname="org.jreact.core.impl.PipeLimitTimesTest" name="limit0TestLooping"/>
   <testcase time="0" classname="org.jreact.core.impl.PipeLimitTimesTest" name="limit1TestDependents"/>
-  <testcase time="0.002" classname="org.jreact.core.impl.PipeLimitTimesTest" name="limit1TestLooping"/>
-  <testcase time="0" classname="org.jreact.core.impl.PipeLimitTimesTest" name="limit1TestThreeDependents"/>
-  <testcase time="0.002" classname="org.jreact.core.impl.PipeLimitTimesTest" name="limit2TestLooping"/>
+  <testcase time="0.001" classname="org.jreact.core.impl.PipeLimitTimesTest" name="limit1TestLooping"/>
+  <testcase time="0.001" classname="org.jreact.core.impl.PipeLimitTimesTest" name="limit1TestThreeDependents"/>
+  <testcase time="0.003" classname="org.jreact.core.impl.PipeLimitTimesTest" name="limit2TestLooping"/>
   <testcase time="0.001" classname="org.jreact.core.impl.RelayingPipeLimitedTimesTest" name="doesGetDisposed"/>
   <testcase time="0" classname="org.jreact.core.impl.RelayingPipeLimitedTimesTest" name="initiallyNotDisposed"/>
-  <testcase time="0" classname="org.jreact.core.impl.RelayingPipeLimitedTimesTest" name="stillNotDisposed"/>
-  <testcase time="0.048" classname="org.jreact.core.impl.PipeMapTest" name="putAbc"/>
-  <testcase time="0.003" classname="org.jreact.core.impl.PipeMapTest" name="putAbcAbc"/>
+  <testcase time="0.001" classname="org.jreact.core.impl.RelayingPipeLimitedTimesTest" name="stillNotDisposed"/>
+  <testcase time="0.01" classname="org.jreact.core.impl.PipeMapTest" name="putAbc"/>
+  <testcase time="0.005" classname="org.jreact.core.impl.PipeMapTest" name="putAbcAbc"/>
   <testcase time="0.002" classname="org.jreact.core.impl.PipeMapTest" name="putAbcDef"/>
-  <testcase time="0.002" classname="org.jreact.core.impl.PipeMapTest" name="putDefXyzzy"/>
+  <testcase time="0.004" classname="org.jreact.core.impl.PipeMapTest" name="putDefXyzzy"/>
 </testsuite>

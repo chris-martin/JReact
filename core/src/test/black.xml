@@ -1,0 +1,54 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Black box">
+
+  <test name="Constant basics">
+    <classes>
+      <class name="org.jreact.core.ConstantGetTest"/>
+      <class name="org.jreact.core.ConstantEqualsObjectTest"/>
+      <class name="org.jreact.core.ConstantEqualsValueTest"/>
+      <class name="org.jreact.core.ConstantHashCodeTest"/>
+    </classes>
+  </test>
+
+  <test name="Constant limitations">
+    <classes>
+      <class name="org.jreact.core.ConstantLimitTest"/>
+    </classes>
+  </test>
+
+  <test name="Constant transformations">
+    <classes>
+      <class name="org.jreact.core.ConstantMapTest"/>
+    </classes>
+  </test>
+
+  <test name="Variable basics">
+    <classes>
+      <class name="org.jreact.core.VariableGetAndPutTest"/>
+      <class name="org.jreact.core.VariableEqualsObjectTest"/>
+      <class name="org.jreact.core.VariableEqualsValueTest"/>
+      <class name="org.jreact.core.VariableHashCodeTest"/>
+    </classes>
+  </test>
+
+  <test name="Variable looping">
+    <classes>
+      <class name="org.jreact.core.VariableLoopTest"/>
+      <class name="org.jreact.core.VariableChangesTest"/>
+    </classes>
+  </test>
+
+  <test name="Variable limitations">
+    <classes>
+      <class name="org.jreact.core.VariableLimitTest"/>
+    </classes>
+  </test>
+
+  <test name="Variable transformations">
+    <classes>
+      <class name="org.jreact.core.VariableMapTest"/>
+    </classes>
+  </test>
+
+</suite>

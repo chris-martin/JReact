@@ -1,13 +1,13 @@
-package org.jreact.core.impl;
+package org.jreact.core;
 
-import org.jreact.core.Variable;
+import org.jreact.core.impl.Reactives;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
 /**
- * Tests {@link VariableImpl#get() and {@link VariableImpl#put(Object)}}.
+ * Tests {@link Variable#get() and {@link Variable#put(Object)}}.
  */
 public class VariableGetAndPutTest {
 
@@ -16,7 +16,7 @@ public class VariableGetAndPutTest {
     @BeforeMethod
     public void createTestSubjects() {
 
-        var = new VariableImpl<Character>('a');
+        var = Reactives.variable('a');
 
     }
 

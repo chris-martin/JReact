@@ -1,25 +1,25 @@
-package org.jreact.core.impl;
+package org.jreact.core;
 
 import fj.Effect;
-import org.jreact.core.Reactive;
+import org.jreact.core.impl.Reactives;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import static org.mockito.Mockito.*;
 
 /**
- * Tests {@link VariableImpl#changes()}.
+ * Tests {@link Variable#changes()}.
  */
 public class VariableChangesTest {
 
-    private VariableImpl<Character> var;
+    private Variable<Character> var;
 
     private Effect<Character> effect;
 
     @BeforeMethod
     public void createTestSubjects() {
 
-        var = new VariableImpl<Character>('a');
+        var = Reactives.variable('a');
 
     }
 

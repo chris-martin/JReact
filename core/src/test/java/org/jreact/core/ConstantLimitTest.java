@@ -1,23 +1,20 @@
-package org.jreact.core.impl;
+package org.jreact.core;
 
 import fj.Effect;
-import org.jreact.core.Reactive;
-import org.jreact.core.Stream;
+import org.jreact.core.impl.Reactives;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.never;
-import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.*;
 
 /**
- * Tests {@link SimpleConstant#limit(Stream)}.
+ * Tests {@link Signal#limit(Stream)}.
  */
 public class ConstantLimitTest {
 
-    private SimpleConstant<Character> a;
-    private PipeImpl<Object> dispose1;
-    private PipeImpl<Object> dispose2;
+    private Signal<Character> a;
+    private Pipe<Object> dispose1;
+    private Pipe<Object> dispose2;
     private Effect<Character> effect1;
     private Effect<Character> effect2;
     private Effect<Character> effect3;
@@ -25,9 +22,9 @@ public class ConstantLimitTest {
     @BeforeMethod
     public void createTestSubjects() {
 
-        a = new SimpleConstant<Character>('a');
-        dispose1 = new PipeImpl<Object>();
-        dispose2 = new PipeImpl<Object>();
+        a = Reactives.constant('a');
+        dispose1 = Reactives.pipe();
+        dispose2 = Reactives.pipe();
 
     }
 

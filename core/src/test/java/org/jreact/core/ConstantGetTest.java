@@ -1,21 +1,22 @@
-package org.jreact.core.impl;
+package org.jreact.core;
 
+import org.jreact.core.impl.Reactives;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import static org.testng.AssertJUnit.assertEquals;
+import static org.testng.Assert.assertEquals;
 
 /**
- * Tests {@link SimpleConstant#get()}.
+ * Tests {@link Signal#get()}.
  */
 public class ConstantGetTest {
 
-    private ConstantImpl<Character> constant;
+    private Signal<Character> constant;
 
     @BeforeMethod
     public void createTestSubjects() {
 
-        constant = new SimpleConstant<Character>('a');
+        constant = Reactives.constant('a');
 
     }
 

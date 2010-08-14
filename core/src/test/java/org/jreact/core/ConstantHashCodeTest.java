@@ -1,15 +1,19 @@
-package org.jreact.core.impl;
+package org.jreact.core;
 
+import org.jreact.core.impl.Reactives;
 import org.testng.annotations.Test;
 
-import static junit.framework.Assert.assertEquals;
+import static org.testng.Assert.assertEquals;
 
+/**
+ * Tests {@link Signal#hashCode()}.
+ */
 public class ConstantHashCodeTest {
 
     @Test
     public void character() {
 
-        final SimpleConstant a = new SimpleConstant<Character>('a');
+        final Signal a = Reactives.constant('a');
 
         assertEquals(a.hashCode(), ((Character) 'a').hashCode());
 
@@ -25,7 +29,7 @@ public class ConstantHashCodeTest {
             }
         };
 
-        final SimpleConstant a = new SimpleConstant<Object>(object);
+        final Signal a = Reactives.constant(object);
 
         assertEquals(a.hashCode(), 5);
 

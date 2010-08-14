@@ -1,26 +1,24 @@
-package org.jreact.core.impl;
+package org.jreact.core;
 
-import org.jreact.core.Value;
+import org.jreact.core.impl.Reactives;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
 /**
- * Tests {@link SimpleConstant#equals(Value)}.
+ * Tests {@link Signal#equals(Value)}.
  */
 public class ConstantEqualsValueTest {
 
-    private ConstantImpl<Character> a;
+    private Signal<Character> a;
 
     @BeforeMethod
     public void createTestSubjects() {
 
-        a = new SimpleConstant<Character>('a');
+        a = Reactives.constant('a');
 
     }
 
@@ -41,7 +39,7 @@ public class ConstantEqualsValueTest {
     @Test
     public void equalsConstantA() {
 
-        assertTrue(a.equals((Value) new SimpleConstant<Character>('a')));
+        assertTrue(a.equals((Value) Reactives.constant('a')));
 
     }
 

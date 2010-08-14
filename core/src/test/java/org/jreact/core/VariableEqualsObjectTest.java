@@ -1,4 +1,4 @@
-package org.jreact.core.impl;
+package org.jreact.core;
 
 public class VariableEqualsObjectTest {
 }

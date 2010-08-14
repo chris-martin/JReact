@@ -1,23 +1,19 @@
-package org.jreact.core.impl;
+package org.jreact.core;
 
 import fj.Effect;
 import fj.F;
-import org.jreact.core.Signal;
-import org.jreact.core.Stream;
-import org.jreact.core.Variable;
+import org.jreact.core.impl.Reactives;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import static org.mockito.Mockito.*;
-import static org.mockito.Mockito.times;
-import static org.mockito.Mockito.verify;
 
 /**
- * Tests {@link VariableImpl#map(F)}.
+ * Tests {@link Variable#map(F)}.
  */
 public class VariableMapTest {
 
-    private VariableImpl<String> var;
+    private Variable<String> var;
     private Effect<String> effect1;
     private Effect<Integer> effect2;
     private F<String, Integer> function;
@@ -25,7 +21,7 @@ public class VariableMapTest {
     @BeforeMethod
     public void createTestSubjects() {
 
-        var = new VariableImpl<String>("abc");
+        var = Reactives.variable("abc");
 
     }
 

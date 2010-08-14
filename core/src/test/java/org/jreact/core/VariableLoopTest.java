@@ -1,7 +1,7 @@
-package org.jreact.core.impl;
+package org.jreact.core;
 
 import fj.Effect;
-import org.jreact.core.Variable;
+import org.jreact.core.impl.Reactives;
 import org.mockito.InOrder;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import static org.mockito.Mockito.*;
 
 /**
- * Tests {@link VariableImpl#loop(Effect)}.
+ * Tests {@link Variable#loop(Effect)}.
  */
 public class VariableLoopTest {
 
@@ -20,7 +20,7 @@ public class VariableLoopTest {
     @BeforeMethod
     public void createTestSubjects() {
 
-        var = new VariableImpl<Character>('a');
+        var = Reactives.variable('a');
 
     }
 

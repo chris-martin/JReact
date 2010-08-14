@@ -1,7 +1,7 @@
-package org.jreact.core.impl;
+package org.jreact.core;
 
 import fj.F;
-import org.jreact.core.Signal;
+import org.jreact.core.impl.Reactives;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -9,17 +9,17 @@ import static org.mockito.Mockito.*;
 import static org.testng.Assert.assertEquals;
 
 /**
- * Tests {@link SimpleConstant#map(F)}.
+ * Tests {@link Signal#map(F)}.
  */
 public class ConstantMapTest {
 
-    private SimpleConstant<String> a;
+    private Signal<String> a;
     private F<String, Integer> length;
 
     @BeforeMethod
     public void createTestSubjects() {
 
-        a = new SimpleConstant<String>("abc");
+        a = Reactives.constant("abc");
 
     }
 
