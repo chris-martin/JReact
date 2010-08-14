@@ -34,10 +34,8 @@
         <version>2.5</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>src/test/pipe-black.xml</suiteXmlFile>
-            <suiteXmlFile>src/test/signal-black.xml</suiteXmlFile>
-            <suiteXmlFile>src/test/variable-black.xml</suiteXmlFile>
-            <suiteXmlFile>src/test/pipe-white.xml</suiteXmlFile>
+            <suiteXmlFile>src/test/black.xml</suiteXmlFile>
+            <suiteXmlFile>src/test/white.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>

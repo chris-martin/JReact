@@ -1,10 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Pipe: Blackbox">
+<suite name="White box">
 
-  <test name="Pipe basics">
+  <test name="Pipe looping">
     <classes>
-      <class name="org.jreact.core.PipePutTest"/>
+      <class name="org.jreact.core.impl.PipeDependentEffectsTest"/>
+      <class name="org.jreact.core.impl.PipeDependentSinksTest"/>
     </classes>
   </test>
 
@@ -12,12 +13,7 @@
     <classes>
       <class name="org.jreact.core.PipeLimitTimesTest"/>
       <class name="org.jreact.core.PipeLimitStreamTest"/>
-    </classes>
-  </test>
-
-  <test name="Pipe transformations">
-    <classes>
-      <class name="org.jreact.core.PipeMapTest"/>
+      <class name="org.jreact.core.impl.RelayingPipeLimitedTimesTest"/>
     </classes>
   </test>
 
