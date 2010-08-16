@@ -91,4 +91,11 @@ abstract class ConstantImpl<A>
 
     }
 
+    @Override
+    public <B, C> Signal<C> compose(Signal<B> signal, F<? super B, ? extends C> function) {
+
+        return null; // TODO
+
+    }
+
 }

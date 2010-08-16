@@ -17,12 +17,28 @@
   <version>0.1</version>
 
   <name>JReact Adapters</name>
-  <description>...</description>
+  <description>
+    The Adapters project provides reactive wrappers for classes that implement
+    the observer pattern.
+  </description>
   <packaging>pom</packaging>
 
   <modules>
+    <module>core</module>
     <module>gwt</module>
     <module>gxt</module>
   </modules>
+
+  <dependencyManagement>
+    <dependencies>
+
+    <dependency>
+      <groupId>org.jreact</groupId>
+      <artifactId>jreact-adapt-core</artifactId>
+      <version>0.1</version>
+    </dependency>
+
+    </dependencies>
+  </dependencyManagement>
 
 </project>

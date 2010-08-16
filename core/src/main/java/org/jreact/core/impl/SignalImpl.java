@@ -89,6 +89,15 @@ abstract class SignalImpl<A>
     }
 
     @Override
+    public <B, C> Signal<C> compose(
+            final Signal<B> signal,
+            final F<? super B, ? extends C> function) {
+
+        return null;
+
+    }
+
+    @Override
     public boolean equals(
             final Object object) {
 

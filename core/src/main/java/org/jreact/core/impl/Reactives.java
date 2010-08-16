@@ -1,6 +1,9 @@
 package org.jreact.core.impl;
 
-import org.jreact.core.*;
+import org.jreact.core.Pipe;
+import org.jreact.core.Signal;
+import org.jreact.core.Stream;
+import org.jreact.core.Variable;
 
 public final class Reactives {
 

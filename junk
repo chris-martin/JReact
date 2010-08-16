@@ -1,5 +1,127 @@
 
 
+
+package org.jreact.adapt.gwt.focus;
+
+import com.google.gwt.event.dom.client.*;
+import com.google.gwt.event.shared.GwtEvent;
+import com.google.gwt.event.shared.HandlerManager;
+import com.google.gwt.event.shared.HandlerRegistration;
+
+public class MockFocusObservable
+        implements HasFocusHandlers, HasBlurHandlers {
+
+    private final HandlerManager manager = new HandlerManager(null);
+
+    @Override
+    public HandlerRegistration addFocusHandler(
+            final FocusHandler handler) {
+
+        manager.addHandler(
+            FocusEvent.getType(),
+            handler
+        );
+
+    }
+
+    @Override
+    public HandlerRegistration addBlurHandler(
+            final BlurHandler handler) {
+
+        manager.addHandler(
+            BlurEvent.getType(),
+            handler
+        );
+
+    }
+
+    @Override
+    public void fireEvent(
+            final GwtEvent<?> event) {
+
+        manager.fireEvent(event);
+
+    }
+
+}
+
+
+
+
+
+
+    public Stream<FocusEvent> until(
+            final Stream<?> until) {
+
+        final HandlerRegistration registration = subject.addFocusHandler(
+            new FocusHandler() {
+                @Override
+                public void onFocus(final FocusEvent event) {
+                    pipe.put(event);
+                }
+            }
+        );
+
+        until.limit(1).loop(
+            new Effect<Object>() {
+                @Override
+                public void e(final Object o) {
+                    registration.removeHandler();
+                }
+            }
+        );
+
+        return pipe;
+
+    }
+
+    public Stream<FocusEvent> when(
+            final Signal<Boolean> condition) {
+
+        final Pipe<FocusEvent> pipe = Reactives.pipe();
+
+        final Variable<Option<HandlerRegistration>> registration =
+            Reactives.variable(Option.<HandlerRegistration>none());
+
+        condition.loop(
+            new Effect<Boolean>() {
+                @Override
+                public void e(Boolean value) {
+                    if (value) {
+                        registration.put(
+                            Option.some(
+                                subject.addFocusHandler(
+                                    new FocusHandler() {
+                                        @Override
+                                        public void onFocus(final FocusEvent event) {
+                                            pipe.put(event);
+                                        }
+                                    }
+                                )
+                            )
+                        );
+                    } else if (registration.get().isSome()) {
+                        registration.get().some().removeHandler();
+                    }
+                }
+            }
+        );
+
+        return pipe;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 package org.jreact.core.impl;
 
 import org.jreact.core.Value;

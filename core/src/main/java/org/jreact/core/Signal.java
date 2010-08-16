@@ -10,4 +10,9 @@ public interface Signal<A>
         F<? super A, ? extends B> function
     );
 
+    <B, C> Signal<C> compose(
+        Signal<B> signal,
+        F<? super B, ? extends C> function
+    );
+
 }

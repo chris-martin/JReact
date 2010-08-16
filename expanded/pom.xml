@@ -8,37 +8,37 @@
 
   <parent>
     <groupId>org.jreact</groupId>
-    <artifactId>jreact-adapters</artifactId>
+    <artifactId>jreact-all</artifactId>
     <version>0.1</version>
   </parent>
 
   <groupId>org.jreact</groupId>
-  <artifactId>jreact-gxt</artifactId>
+  <artifactId>jreact-expanded</artifactId>
   <version>0.1</version>
 
-  <name>JReact GXT Adapters</name>
-  <description>...</description>
+  <name>JReact Expanded</name>
+  <description>
+    The Expanded project is a richer set of features that are built on top of JReact Core.
+  </description>
   <packaging>jar</packaging>
 
   <build>
+
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
       </plugin>
+
     </plugins>
+
   </build>
 
   <dependencies>
 
     <dependency>
       <groupId>org.jreact</groupId>
-      <artifactId>jreact-adapt-core</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.functionaljava</groupId>
-      <artifactId>fj</artifactId>
+      <artifactId>jreact-core</artifactId>
     </dependency>
 
   </dependencies>

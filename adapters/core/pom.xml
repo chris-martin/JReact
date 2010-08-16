@@ -13,10 +13,10 @@
   </parent>
 
   <groupId>org.jreact</groupId>
-  <artifactId>jreact-gxt</artifactId>
+  <artifactId>jreact-adapt-core</artifactId>
   <version>0.1</version>
 
-  <name>JReact GXT Adapters</name>
+  <name>JReact Adaption Core</name>
   <description>...</description>
   <packaging>jar</packaging>
 
@@ -33,12 +33,7 @@
 
     <dependency>
       <groupId>org.jreact</groupId>
-      <artifactId>jreact-adapt-core</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.functionaljava</groupId>
-      <artifactId>fj</artifactId>
+      <artifactId>jreact-expanded</artifactId>
     </dependency>
 
   </dependencies>

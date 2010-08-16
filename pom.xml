@@ -18,6 +18,7 @@
   <modules>
     <module>core</module>
     <module>adapters</module>
+    <module>expanded</module>
   </modules>
 
   <build>
@@ -51,6 +52,18 @@
   <dependencyManagement>
 
     <dependencies>
+
+      <dependency>
+        <groupId>org.jreact</groupId>
+        <artifactId>jreact-core</artifactId>
+        <version>0.1</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.jreact</groupId>
+        <artifactId>jreact-expanded</artifactId>
+        <version>0.1</version>
+      </dependency>
 
       <dependency>
         <groupId>org.functionaljava</groupId>
