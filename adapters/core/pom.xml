@@ -17,7 +17,9 @@
   <version>0.1</version>
 
   <name>JReact Adaption Core</name>
-  <description>...</description>
+  <description>
+    Base classes and utilities to support the various adapter projects.
+  </description>
   <packaging>jar</packaging>
 
   <build>

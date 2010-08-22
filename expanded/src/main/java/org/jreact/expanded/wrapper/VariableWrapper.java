@@ -72,6 +72,13 @@ public class VariableWrapper<A>
     }
 
     @Override
+    public Effect<A> put() {
+
+        return variable.put();
+
+    }
+
+    @Override
     public boolean equals(
             final Object object) {
 

@@ -1,0 +1,15 @@
+<module rename-to="StockWatcher">
+
+  <inherits name="com.google.gwt.user.User"/>
+  <inherits name="com.google.gwt.user.theme.standard.Standard"/>
+
+  <entry-point class="org.jreact.examples.gwt.stockwatcher.client.StockWatcher"/>
+
+  <stylesheet src="StockWatcher.css"/>
+
+  <source path="client"/>
+
+  <servlet path="/stockPrices"
+      class="org.jreact.examples.gwt.stockwatcher.server.StockPriceServiceImpl" />
+
+</module>

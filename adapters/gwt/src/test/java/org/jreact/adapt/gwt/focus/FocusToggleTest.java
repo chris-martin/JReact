@@ -1,9 +1,6 @@
 package org.jreact.adapt.gwt.focus;
 
-import com.google.gwt.event.dom.client.BlurHandler;
-import com.google.gwt.event.dom.client.FocusHandler;
-import com.google.gwt.event.dom.client.HasBlurHandlers;
-import com.google.gwt.event.dom.client.HasFocusHandlers;
+import com.google.gwt.event.dom.client.*;
 import com.google.gwt.event.shared.HandlerRegistration;
 import org.jreact.expanded.toggle.Toggles;
 import org.mockito.invocation.InvocationOnMock;
@@ -11,7 +8,6 @@ import org.mockito.stubbing.Answer;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import static junit.framework.Assert.assertNull;
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.*;
 import static org.testng.Assert.assertEquals;
@@ -96,6 +92,32 @@ public class FocusToggleTest {
 
     }
 
-    // TODO add some less trivial tests
+    @Test
+    public void trueSignalAndFireBlur() {
+
+        final FocusToggleAdapter adapter = new FocusToggleAdapter(
+            Toggles.trueSignal(),
+            focusObject
+        );
+
+        blurHandler.onBlur(mock(BlurEvent.class));
+
+        assertEquals(adapter.get(), (Boolean) false);
+
+    }
+
+    @Test
+    public void trueSignalAndFireFocus() {
+
+        final FocusToggleAdapter adapter = new FocusToggleAdapter(
+            Toggles.trueSignal(),
+            focusObject
+        );
+
+        focusHandler.onFocus(mock(FocusEvent.class));
+
+        assertEquals(adapter.get(), (Boolean) true);
+
+    }
 
 }

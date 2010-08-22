@@ -1,5 +1,6 @@
 package org.jreact.core.impl;
 
+import fj.Effect;
 import org.jreact.core.Pipe;
 import org.jreact.core.Value;
 
@@ -20,6 +21,23 @@ class PipeImpl<A>
             final Value<A> value) {
 
         propagate(value);
+
+    }
+
+    @Override
+    public Effect<A> put() {
+
+        return new Effect<A>() {
+
+            @Override
+            public void e(
+                    final A a) {
+
+                PipeImpl.this.put(a);
+
+            }
+
+        };
 
     }
 

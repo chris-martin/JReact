@@ -13,31 +13,18 @@
   </parent>
 
   <groupId>org.jreact</groupId>
-  <artifactId>jreact-adapters</artifactId>
+  <artifactId>jreact-examples</artifactId>
   <version>0.1</version>
 
-  <name>JReact Adapters</name>
+  <name>JReact Examples</name>
   <description>
-    Provides reactive wrappers for classes that implement the observer pattern.
+    The Examples project provides demonstrations of how JReact can be utilized
+    to maximize synergy in your enterprise software solutions.
   </description>
   <packaging>pom</packaging>
 
   <modules>
-    <module>core</module>
     <module>gwt</module>
-    <module>gxt</module>
   </modules>
-
-  <dependencyManagement>
-    <dependencies>
-
-    <dependency>
-      <groupId>org.jreact</groupId>
-      <artifactId>jreact-adapt-core</artifactId>
-      <version>0.1</version>
-    </dependency>
-
-    </dependencies>
-  </dependencyManagement>
 
 </project>

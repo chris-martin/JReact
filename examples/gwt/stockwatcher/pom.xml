@@ -8,39 +8,48 @@
 
   <parent>
     <groupId>org.jreact</groupId>
-    <artifactId>jreact-adapters</artifactId>
+    <artifactId>jreact-gwt-examples</artifactId>
     <version>0.1</version>
   </parent>
 
   <groupId>org.jreact</groupId>
-  <artifactId>jreact-gxt</artifactId>
+  <artifactId>jreact-example-stockwatcher</artifactId>
   <version>0.1</version>
 
-  <name>JReact GXT Adapters</name>
+  <name>JReact Example: Stockwatcher</name>
   <description>
-    Provides reactive wrappers for observable GXT components.
+    A version of the StockWatcher application from Google's GWT tutorial,
+    using JReact.
+    http://code.google.com/webtoolkit/doc/latest/tutorial/create.html
   </description>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
   <build>
+
     <plugins>
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
       </plugin>
+
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>gwt-maven-plugin</artifactId>
+        <configuration>
+          <runTarget>org.jreact.examples.gwt.stockwatcher.StockWatcher/StockWatcher.html</runTarget>
+        </configuration>
+      </plugin>
+
     </plugins>
+
   </build>
 
   <dependencies>
 
     <dependency>
       <groupId>org.jreact</groupId>
-      <artifactId>jreact-adapt-core</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.functionaljava</groupId>
-      <artifactId>fj</artifactId>
+      <artifactId>jreact-expanded</artifactId>
     </dependency>
 
   </dependencies>

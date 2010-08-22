@@ -17,7 +17,9 @@
   <version>0.1</version>
 
   <name>JReact GWT Adapters</name>
-  <description>...</description>
+  <description>
+    Provides reactive wrappers for observable GWT components.
+  </description>
   <packaging>jar</packaging>
 
   <build>

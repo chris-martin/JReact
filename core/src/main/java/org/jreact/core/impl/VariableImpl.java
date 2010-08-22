@@ -1,5 +1,6 @@
 package org.jreact.core.impl;
 
+import fj.Effect;
 import org.jreact.core.Variable;
 
 class VariableImpl<A>
@@ -61,6 +62,23 @@ class VariableImpl<A>
     void dispose() {
 
         throw new UnsupportedOperationException();
+
+    }
+
+    @Override
+    public Effect<A> put() {
+
+        return new Effect<A>() {
+
+            @Override
+            public void e(
+                    final A a) {
+
+                VariableImpl.this.put(a);
+
+            }
+
+        };
 
     }
 

@@ -18,8 +18,8 @@
 
   <name>JReact Core</name>
   <description>
-    The Core project is the foundation of JReact. It is intended to be compact,
-    containing only the features that are most essential to the reactive framework.
+    The foundation of JReact. It is intended to be compact, containing only
+    the features that are most essential to the reactive framework.
   </description>
   <packaging>jar</packaging>
 
