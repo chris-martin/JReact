@@ -3,11 +3,23 @@ package org.jreact.expanded.wrapper;
 import fj.Effect;
 import fj.F;
 import org.jreact.core.*;
+import org.jreact.core.impl.Reactives;
 
 public class VariableWrapper<A>
         implements Variable<A> {
 
     private final Variable<A> variable;
+
+    public VariableWrapper(
+            final A initialValue) {
+
+        this(
+            Reactives.variable(
+                initialValue
+            )
+        );
+
+    }
 
     public VariableWrapper(
             final Variable<A> variable) {
@@ -20,7 +32,9 @@ public class VariableWrapper<A>
     public <B> Signal<B> map(
             final F<? super A, ? extends B> function) {
 
-        return variable.map(function);
+        return variable.map(
+            function
+        );
 
     }
 
@@ -29,7 +43,10 @@ public class VariableWrapper<A>
             final Signal<B> signal,
             final F<? super B, ? extends C> function) {
 
-        return variable.compose(signal, function);
+        return variable.compose(
+            signal,
+            function
+        );
 
     }
 
@@ -37,7 +54,9 @@ public class VariableWrapper<A>
     public void loop(
             final Effect<? super A> effect) {
 
-        variable.loop(effect);
+        variable.loop(
+            effect
+        );
 
     }
 
@@ -45,7 +64,9 @@ public class VariableWrapper<A>
     public Reactive<A> limit(
             final Stream<?> dispose) {
 
-        return variable.limit(dispose);
+        return variable.limit(
+            dispose
+        );
 
     }
 
@@ -53,7 +74,9 @@ public class VariableWrapper<A>
     public void put(
             final A value) {
 
-        variable.put(value);
+        variable.put(
+            value
+        );
 
     }
 
@@ -72,9 +95,17 @@ public class VariableWrapper<A>
     }
 
     @Override
-    public Effect<A> put() {
+    public Effect<A> putEffect() {
 
-        return variable.put();
+        return variable.putEffect();
+
+    }
+
+    @Override
+    public <B> Effect<B> putEffect(
+            final A value) {
+
+        return variable.putEffect(value);
 
     }
 
@@ -82,7 +113,9 @@ public class VariableWrapper<A>
     public boolean equals(
             final Object object) {
 
-        return object != null && object instanceof Value && equals((Value) object);
+        return object != null
+            && object instanceof Value
+            && equals((Value) object);
 
     }
 
@@ -90,7 +123,8 @@ public class VariableWrapper<A>
     public boolean equals(
             final Value value) {
 
-        return value != null && get().equals(value.get());
+        return value != null
+            && get().equals(value.get());
 
     }
 

@@ -25,7 +25,7 @@ class PipeImpl<A>
     }
 
     @Override
-    public Effect<A> put() {
+    public Effect<A> putEffect() {
 
         return new Effect<A>() {
 
@@ -34,6 +34,24 @@ class PipeImpl<A>
                     final A a) {
 
                 PipeImpl.this.put(a);
+
+            }
+
+        };
+
+    }
+
+    @Override
+    public <B> Effect<B> putEffect(
+            final A value) {
+
+        return new Effect<B>() {
+
+            @Override
+            public void e(
+                    final B b) {
+
+                PipeImpl.this.put(value);
 
             }
 

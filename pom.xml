@@ -67,9 +67,29 @@
       </dependency>
 
       <dependency>
+        <groupId>org.jreact</groupId>
+        <artifactId>jreact-gwt</artifactId>
+        <version>0.1</version>
+      </dependency>
+
+      <dependency>
         <groupId>org.functionaljava</groupId>
         <artifactId>fj</artifactId>
         <version>3.0</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.google.gwt</groupId>
+        <artifactId>gwt-servlet</artifactId>
+        <version>1.5.3</version>
+        <scope>runtime</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>com.google.gwt</groupId>
+        <artifactId>gwt-user</artifactId>
+        <version>2.0.4</version>
+        <scope>compile</scope>
       </dependency>
 
       <dependency>

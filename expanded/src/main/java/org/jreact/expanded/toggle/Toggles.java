@@ -1,6 +1,5 @@
 package org.jreact.expanded.toggle;
 
-import fj.Effect;
 import org.jreact.core.Signal;
 import org.jreact.core.Stream;
 import org.jreact.core.impl.Reactives;
@@ -19,21 +18,11 @@ public final class Toggles {
         );
 
         trueStream.loop(
-            new Effect<Object>() {
-                @Override
-                public void e(final Object o) {
-                    var.put(true);
-                }
-            }
+            var.putEffect(true)
         );
 
         falseStream.loop(
-            new Effect<Object>() {
-                @Override
-                public void e(final Object o) {
-                    var.put(false);
-                }
-            }
+            var.putEffect(false)
         );
 
         return var;
@@ -49,12 +38,7 @@ public final class Toggles {
         );
 
         stream.limit(1).loop(
-            new Effect<Object>() {
-                @Override
-                public void e(final Object o) {
-                    var.toggle();
-                }
-            }
+            var.toggleEffect()
         );
 
         return var;

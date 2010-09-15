@@ -1,9 +1,8 @@
 package org.jreact.core.impl;
 
-import org.jreact.core.Pipe;
-import org.jreact.core.Signal;
-import org.jreact.core.Stream;
-import org.jreact.core.Variable;
+import fj.F;
+import fj.Unit;
+import org.jreact.core.*;
 
 public final class Reactives {
 
@@ -38,6 +37,17 @@ public final class Reactives {
     public static <A> Stream<A> vacuousStream() {
 
         return VacuousStream.instance();
+
+    }
+
+    public static <A> Reactive<A> reactive(
+            final F<Unit, ? extends A> initialValue,
+            final Stream<? extends A> changes) {
+
+        return new ImmediateReactive<A>(
+            initialValue,
+            changes
+        );
 
     }
 

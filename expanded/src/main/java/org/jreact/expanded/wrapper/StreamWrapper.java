@@ -42,6 +42,13 @@ public class StreamWrapper<A>
     }
 
     @Override
+    public Stream<A> filter(F<? super A, Boolean> predicate) {
+
+        return stream.filter(predicate);
+
+    }
+
+    @Override
     public void loop(
             final Effect<? super A> effect) {
 

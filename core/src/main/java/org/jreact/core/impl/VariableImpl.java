@@ -66,7 +66,7 @@ class VariableImpl<A>
     }
 
     @Override
-    public Effect<A> put() {
+    public Effect<A> putEffect() {
 
         return new Effect<A>() {
 
@@ -75,6 +75,24 @@ class VariableImpl<A>
                     final A a) {
 
                 VariableImpl.this.put(a);
+
+            }
+
+        };
+
+    }
+
+    @Override
+    public <B> Effect<B> putEffect(
+            final A value) {
+
+        return new Effect<B>() {
+
+            @Override
+            public void e(
+                    final B b) {
+
+                VariableImpl.this.put(value);
 
             }
 

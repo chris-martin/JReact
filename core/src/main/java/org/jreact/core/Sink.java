@@ -12,6 +12,10 @@ public interface Sink<A> {
      * @return
      *  A first-class version of the {@link #put(Object)} method.
      */
-    Effect<A> put();
+    Effect<A> putEffect();
+
+    <B> Effect<B> putEffect(
+        A value
+    );
 
 }

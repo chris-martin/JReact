@@ -37,7 +37,15 @@ class VacuousStream<A>
     public <B> Stream<B> map(
             final F<? super A, ? extends B> function) {
 
-        return (Stream) this;
+        return (Stream<B>) this;
+
+    }
+
+    @Override
+    public Stream<A> filter(
+            final F<? super A, Boolean> predicate) {
+
+        return this;
 
     }
 

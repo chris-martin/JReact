@@ -181,4 +181,25 @@ class StreamImpl<A>
 
     }
 
+    @Override
+    public Stream<A> filter(
+            final F<? super A, Boolean> predicate) {
+
+        final PipeImpl<A> pipe = new PipeImpl<A>();
+
+        loop(
+            new Effect<A>() {
+                @Override
+                public void e(A a) {
+                    if (predicate.f(a)) {
+                        pipe.put(a);
+                    }
+                }
+            }
+        );
+
+        return pipe;
+
+    }
+
 }

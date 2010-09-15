@@ -1,6 +1,6 @@
 package org.jreact.expanded.toggle;
 
-import org.jreact.core.impl.Reactives;
+import fj.Effect;
 import org.jreact.expanded.wrapper.VariableWrapper;
 
 public class ToggleVariable
@@ -9,14 +9,29 @@ public class ToggleVariable
     public ToggleVariable(
             final boolean initialValue) {
 
-        super(Reactives.variable(initialValue));
+        super(
+            initialValue
+        );
 
     }
 
     public void toggle() {
 
-        put(!get());
-        
+        put(
+            !get()
+        );
+
+    }
+
+    public Effect<Object> toggleEffect() {
+
+        return new Effect<Object>() {
+            @Override
+            public void e(final Object o) {
+                toggle();
+            }
+        };
+
     }
 
 }

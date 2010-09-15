@@ -52,6 +52,11 @@
       <artifactId>jreact-expanded</artifactId>
     </dependency>
 
+    <dependency>
+      <groupId>org.jreact</groupId>
+      <artifactId>jreact-gwt</artifactId>
+    </dependency>
+
   </dependencies>
 
 </project>

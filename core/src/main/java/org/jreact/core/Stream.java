@@ -19,4 +19,8 @@ public interface Stream<A>
         F<? super A, ? extends B> function
     );
 
+    Stream<A> filter(
+        F<? super A, Boolean> predicate
+    );
+
 }
