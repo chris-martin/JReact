@@ -9,7 +9,7 @@ import org.jreact.core.Stream;
 import org.jreact.expanded.suspend.SuspendableSink;
 import org.jreact.expanded.wrapper.VariableWrapper;
 
-import static org.jreact.core.impl.Reactives.pipe;
+import static org.jreact.core.impl2.Reactives.pipe;
 import static org.jreact.expanded.suspend.SuspendableSink.suspendableSink;
 
 public class ListVariable<A>
@@ -36,7 +36,7 @@ public class ListVariable<A>
 
     public Reactive<ListChange> listChanges() {
 
-        return 
+        return
 
     }
 

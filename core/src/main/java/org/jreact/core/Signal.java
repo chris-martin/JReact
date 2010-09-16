@@ -3,7 +3,9 @@ package org.jreact.core;
 import fj.F;
 
 public interface Signal<A>
-        extends Reactive<A>, Value<A>, Varying<A> {
+    extends Reactive<A>, Iterable<A>, Varying<A>
+
+{
 
     @Override
     <B> Signal<B> map(

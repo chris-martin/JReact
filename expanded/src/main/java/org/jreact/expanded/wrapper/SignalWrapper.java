@@ -5,7 +5,6 @@ import fj.F;
 import org.jreact.core.Reactive;
 import org.jreact.core.Signal;
 import org.jreact.core.Stream;
-import org.jreact.core.Value;
 
 public class SignalWrapper<A>
         implements Signal<A> {

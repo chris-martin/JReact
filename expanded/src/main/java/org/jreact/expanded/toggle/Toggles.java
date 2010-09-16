@@ -2,7 +2,7 @@ package org.jreact.expanded.toggle;
 
 import org.jreact.core.Signal;
 import org.jreact.core.Stream;
-import org.jreact.core.impl.Reactives;
+import org.jreact.core.impl2.Reactives;
 
 public final class Toggles {
 

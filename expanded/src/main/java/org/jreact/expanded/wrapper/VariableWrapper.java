@@ -3,7 +3,7 @@ package org.jreact.expanded.wrapper;
 import fj.Effect;
 import fj.F;
 import org.jreact.core.*;
-import org.jreact.core.impl.Reactives;
+import org.jreact.core.impl2.Reactives;
 
 public class VariableWrapper<A>
         implements Variable<A> {

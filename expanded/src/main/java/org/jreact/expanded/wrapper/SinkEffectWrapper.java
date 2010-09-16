@@ -1,7 +1,6 @@
 package org.jreact.expanded.wrapper;
 
 import fj.Effect;
-import org.jreact.core.Sink;
 
 public class SinkEffectWrapper<A>
         implements Sink<A> {

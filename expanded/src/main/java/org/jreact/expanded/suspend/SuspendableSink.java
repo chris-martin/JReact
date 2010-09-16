@@ -1,7 +1,6 @@
 package org.jreact.expanded.suspend;
 
 import fj.Effect;
-import org.jreact.core.Sink;
 
 public class SuspendableSink<A>
         implements Sink<A>, Suspendable {

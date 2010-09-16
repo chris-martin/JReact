@@ -1,6 +1,6 @@
 package org.jreact.core;
 
-import org.jreact.core.impl.Reactives;
+import org.jreact.core.impl2.Reactives;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -9,7 +9,7 @@ import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
 /**
- * Tests {@link org.jreact.core.impl.SimpleConstant#equals(Object)}.
+ * Tests {@link org.jreact.core.impl2.SimpleConstant#equals(Object)}.
  */
 public class SignalEqualsObjectTest {
 

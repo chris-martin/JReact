@@ -1,4 +1,4 @@
-package org.jreact.core.impl;
+package org.jreact.core.impl2;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

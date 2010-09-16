@@ -3,17 +3,19 @@ package org.jreact.core;
 import fj.Effect;
 import fj.F;
 
-public interface Reactive<A> {
+public interface Reactive<A>
+
+{
 
     void loop(
-        Effect<? super A> effect
+        Effect<? super Iterable<A>> effect
     );
 
-    Reactive<A> limit(
+    Disposable<? extends Reactive<A>> limit(
         Stream<?> dispose
     );
 
-    <B> Reactive<B> map(
+    <B> Disposable<? extends Reactive<B>> map(
         F<? super A, ? extends B> function
     );
 

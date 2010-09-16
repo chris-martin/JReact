@@ -4,8 +4,8 @@
 
   <test name="Pipe looping">
     <classes>
-      <class name="org.jreact.core.impl.PipeDependentEffectsTest"/>
-      <class name="org.jreact.core.impl.PipeDependentSinksTest"/>
+      <class name="org.jreact.core.impl2.PipeDependentEffectsTest"/>
+      <class name="org.jreact.core.impl2.PipeDependentSinksTest"/>
     </classes>
   </test>
 
@@ -13,7 +13,7 @@
     <classes>
       <class name="org.jreact.core.PipeLimitTimesTest"/>
       <class name="org.jreact.core.PipeLimitStreamTest"/>
-      <class name="org.jreact.core.impl.RelayingPipeLimitedTimesTest"/>
+      <class name="org.jreact.core.impl2.RelayingPipeLimitedTimesTest"/>
     </classes>
   </test>
 

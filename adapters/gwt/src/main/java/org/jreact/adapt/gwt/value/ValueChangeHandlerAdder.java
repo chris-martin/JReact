@@ -5,7 +5,6 @@ import com.google.gwt.event.logical.shared.ValueChangeEvent;
 import com.google.gwt.event.logical.shared.ValueChangeHandler;
 import com.google.gwt.event.shared.HandlerRegistration;
 import org.jreact.adapt.gwt.GwtHandlerAdder;
-import org.jreact.core.Sink;
 
 public class ValueChangeHandlerAdder<A>
         implements GwtHandlerAdder<ValueChangeEvent<A>> {

@@ -2,7 +2,6 @@ package org.jreact.adapt.gwt.value;
 
 import com.google.gwt.user.client.ui.HasValue;
 import fj.Effect;
-import org.jreact.core.Sink;
 
 public class CopyHasValueToSink<A>
         extends Effect<Object> {

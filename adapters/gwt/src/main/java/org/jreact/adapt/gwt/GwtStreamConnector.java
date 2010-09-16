@@ -2,7 +2,6 @@ package org.jreact.adapt.gwt;
 
 import com.google.gwt.event.shared.HandlerRegistration;
 import org.jreact.adapt.StreamConnector;
-import org.jreact.core.Sink;
 
 public class GwtStreamConnector<A>
         implements StreamConnector<A> {

@@ -5,7 +5,6 @@ import com.google.gwt.event.dom.client.KeyUpEvent;
 import com.google.gwt.event.dom.client.KeyUpHandler;
 import com.google.gwt.event.shared.HandlerRegistration;
 import org.jreact.adapt.gwt.GwtHandlerAdder;
-import org.jreact.core.Sink;
 
 public class KeyUpHandlerAdder
         implements GwtHandlerAdder<KeyUpEvent> {

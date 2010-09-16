@@ -5,7 +5,6 @@ import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.event.shared.HandlerRegistration;
 import org.jreact.adapt.gwt.GwtHandlerAdder;
-import org.jreact.core.Sink;
 
 public class ClickHandlerAdder
         implements GwtHandlerAdder<ClickEvent> {

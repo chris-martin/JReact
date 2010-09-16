@@ -5,7 +5,7 @@ import org.jreact.core.Pipe;
 import org.jreact.core.Signal;
 import org.jreact.core.Stream;
 import org.jreact.core.Variable;
-import org.jreact.core.impl.Reactives;
+import org.jreact.core.impl2.Reactives;
 import org.jreact.expanded.wrapper.StreamWrapper;
 
 public class StreamAdapter<A>

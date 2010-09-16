@@ -1,6 +1,6 @@
 package org.jreact.core;
 
-import org.jreact.core.impl.Reactives;
+import org.jreact.core.impl2.Reactives;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 

@@ -5,7 +5,6 @@ import com.google.gwt.event.dom.client.BlurHandler;
 import com.google.gwt.event.dom.client.HasBlurHandlers;
 import com.google.gwt.event.shared.HandlerRegistration;
 import org.jreact.adapt.gwt.GwtHandlerAdder;
-import org.jreact.core.Sink;
 
 public class BlurHandlerAdder
         implements GwtHandlerAdder<BlurEvent> {

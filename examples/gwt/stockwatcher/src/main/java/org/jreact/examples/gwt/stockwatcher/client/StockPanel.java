@@ -12,7 +12,7 @@ import org.jreact.adapt.gwt.mouse.ClickHandlerAdder;
 import org.jreact.adapt.gwt.value.ValueVariableAdapter;
 import org.jreact.core.Stream;
 import org.jreact.core.Variable;
-import org.jreact.core.impl.Reactives;
+import org.jreact.core.impl2.Reactives;
 
 public class StockPanel
         extends Composite
